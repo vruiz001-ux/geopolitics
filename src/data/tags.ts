@@ -1,0 +1,22 @@
+import type { Tag } from '@/lib/types';
+
+export const tags: Tag[] = [
+  { slug: 'eu', name: 'European Union' },
+  { slug: 'china', name: 'China' },
+  { slug: 'us', name: 'United States' },
+  { slug: 'india', name: 'India' },
+  { slug: 'ai', name: 'Artificial Intelligence' },
+  { slug: 'semiconductors', name: 'Semiconductors' },
+  { slug: 'energy', name: 'Energy' },
+  { slug: 'markets', name: 'Markets' },
+  { slug: 'elections', name: 'Elections' },
+  { slug: 'sanctions', name: 'Sanctions' },
+  { slug: 'defense', name: 'Defense' },
+  { slug: 'climate', name: 'Climate' },
+  { slug: 'trade', name: 'Trade' },
+  { slug: 'platforms', name: 'Platforms' },
+  { slug: 'central-banks', name: 'Central Banks' },
+  { slug: 'africa', name: 'Africa' },
+  { slug: 'latam', name: 'Latin America' },
+  { slug: 'middle-east', name: 'Middle East' },
+];
