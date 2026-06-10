@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { authors } from '@/data/authors';
+import { getAllAuthors } from '@/lib/data';
 import { AuthorCard } from '@/components/AuthorCard';
 import { NewsletterCTA } from '@/components/NewsletterCTA';
 
@@ -10,6 +10,7 @@ export const metadata: Metadata = {
 };
 
 export default function AboutPage() {
+  const authors = getAllAuthors();
   return (
     <div className="container-page py-10 lg:py-16">
       <header className="mx-auto max-w-3xl">
@@ -55,7 +56,7 @@ export default function AboutPage() {
         </p>
         <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {authors.map((author) => (
-            <AuthorCard key={author.id} author={author} variant="card" />
+            <AuthorCard key={author.slug} author={author} variant="card" />
           ))}
         </div>
       </section>

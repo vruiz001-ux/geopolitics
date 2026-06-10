@@ -1,0 +1,95 @@
+{
+  "slug": "sovereign-wealth-utilities",
+  "title": "Why Gulf sovereign funds are quietly buying European utilities",
+  "subtitle": "Three deals in the past quarter have brought GCC capital into critical European energy infrastructure. The pattern is deliberate, and Brussels is starting to notice.",
+  "category": "business",
+  "tags": [
+    "markets",
+    "eu",
+    "energy",
+    "middle-east"
+  ],
+  "publishedAt": "2026-06-05T08:00:00Z",
+  "readingTime": 7,
+  "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1600&h=900&fit=crop",
+  "imageAlt": "Power lines crossing a European countryside at sunset",
+  "featured": true,
+  "excerpt": "A consortium led by ADIA and Mubadala has acquired stakes in grid operators across three EU member states. The deals are small enough to slip under the headline threshold but coordinated enough to look strategic.",
+  "sections": [
+    {
+      "type": "facts",
+      "heading": "The Facts",
+      "content": [
+        "A consortium of Gulf sovereign funds has acquired non-controlling stakes in three European grid operators since March, with total disclosed deal value of 6.3 billion euros.",
+        "The acquisitions span Iberia, the Benelux, and the Nordics, all in transmission rather than generation assets.",
+        "Each deal sits below the 25 percent threshold that triggers automatic foreign investment review under the EU's screening regulation.",
+        "A fourth transaction, targeting a French interconnector operator, is in due diligence."
+      ]
+    },
+    {
+      "type": "why",
+      "heading": "Why It Matters",
+      "content": [
+        "Transmission assets are long-duration, regulated, and politically sensitive. They are exactly the kind of infrastructure Brussels has been trying to keep under European ownership.",
+        "The deals signal a deliberate Gulf strategy of acquiring positions in the European energy transition without triggering the political reaction that a single large transaction would produce.",
+        "If the pattern continues, Gulf funds could hold influential minority positions across most of the EU's critical electricity infrastructure within five years."
+      ]
+    },
+    {
+      "type": "analysis",
+      "heading": "Daniel's view",
+      "content": [
+        "The structuring tells you these deals are coordinated even if the funds say otherwise. Each one sits just below the review threshold. Each one is in a regulated, predictable cash-flow asset. Each one happened in a country with a fiscally stressed government willing to sell.",
+        "European utilities investors have been forced sellers for two reasons: the cost of the transition and political pressure to keep retail prices low. Gulf funds have been the deepest pool of patient capital willing to take the other side.",
+        "The political reaction is coming. The question is whether Brussels updates the screening regulation, which would slow but not stop the trend, or whether member states act unilaterally, which would fragment the response."
+      ]
+    },
+    {
+      "type": "another-view",
+      "heading": "Another view",
+      "content": [
+        "A European pension fund executive argues the Gulf capital is unambiguously welcome. European pensions cannot deploy at the scale required by the transition, and excluding the largest pool of available capital would slow the buildout.",
+        "A regulator in Spain pointed out that minority stakes in regulated transmission assets carry no operational control. The political concern, in this view, is overstated."
+      ]
+    },
+    {
+      "type": "global",
+      "heading": "Global perspective",
+      "content": [
+        "The Gulf strategy mirrors a longer-running pattern in UK water and Australian airports, where sovereign funds have built dominant minority positions over a decade.",
+        "In Washington, CFIUS officials are watching closely. A similar pattern in the US would face a tougher screening environment.",
+        "Singapore and Norwegian sovereign funds have been quietly increasing European utility exposure as well, though through more conventional channels."
+      ]
+    },
+    {
+      "type": "whats-next",
+      "heading": "What's next",
+      "content": [
+        "The French interconnector deal is the next test. If it clears, expect a wave of similar transactions through year end.",
+        "A revised EU screening regulation is on the Commission's agenda for the autumn. The threshold debate will be the central fight.",
+        "Watch for a coordinated response in two or three capitals that bypasses the EU framework entirely."
+      ]
+    },
+    {
+      "type": "sources",
+      "heading": "Sources & further reading",
+      "content": [],
+      "sources": [
+        {
+          "label": "EU FDI screening report",
+          "url": "https://example.com/eu-fdi"
+        },
+        {
+          "label": "ADIA annual review",
+          "url": "https://example.com/adia"
+        }
+      ]
+    }
+  ],
+  "relatedSlugs": [
+    "eu-summit-defense-package",
+    "lithium-collapse",
+    "green-hydrogen-reality-check"
+  ],
+  "authorSlug": "daniel-okoro"
+}

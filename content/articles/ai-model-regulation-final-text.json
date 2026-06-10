@@ -1,0 +1,93 @@
+{
+  "slug": "ai-model-regulation-final-text",
+  "title": "The final AI model rules are narrower than industry feared and broader than civil society hoped",
+  "subtitle": "The compromise text emerged from a week of late-night drafting. It will set the global baseline whether other jurisdictions follow it or not.",
+  "category": "technology",
+  "tags": [
+    "ai",
+    "eu",
+    "platforms"
+  ],
+  "publishedAt": "2026-06-03T09:00:00Z",
+  "readingTime": 10,
+  "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1600&h=900&fit=crop",
+  "imageAlt": "Server room interior with blue lighting",
+  "excerpt": "Frontier models above the compute threshold face new transparency and incident-reporting obligations. Open-source models get a narrow but real exemption. The downstream deployer rules are the surprise.",
+  "sections": [
+    {
+      "type": "facts",
+      "heading": "The Facts",
+      "content": [
+        "The compromise text on frontier AI regulation was finalized at 11pm Tuesday after a week of trilogue negotiation.",
+        "Models above a 10^25 FLOPS training compute threshold face mandatory pre-deployment evaluation, incident reporting within seven days, and red-team disclosure to a new oversight body.",
+        "A narrow exemption for open-weight models was preserved, conditional on documented compute and dataset disclosures.",
+        "Downstream deployers above a use-volume threshold face their own obligations, a late addition that surprised most industry observers."
+      ]
+    },
+    {
+      "type": "why",
+      "heading": "Why It Matters",
+      "content": [
+        "The compute threshold is high enough to exclude most current models but low enough that the next generation will fall under the rules.",
+        "The downstream deployer obligations are the most consequential novelty. They extend regulatory reach beyond the labs to the companies actually integrating models into production systems.",
+        "As the first comprehensive frontier model regime, this text will set the global default. Other jurisdictions will copy parts of it whether or not they adopt the full framework."
+      ]
+    },
+    {
+      "type": "analysis",
+      "heading": "Mei's view",
+      "content": [
+        "The compute threshold debate was the loudest fight, but the downstream rules are the more interesting outcome. They reflect a recognition that model behavior in deployment is shaped at least as much by the deployer's integration choices as by the lab's training decisions.",
+        "The labs got most of what they wanted on the threshold. The deployers got blindsided. Expect a year of lobbying to soften the use-volume calculations before the rules take effect.",
+        "The open-weight exemption is narrow but real. It will keep European open-source viable, which matters strategically even if the open models are not at the frontier."
+      ]
+    },
+    {
+      "type": "another-view",
+      "heading": "Another view",
+      "content": [
+        "A civil society advocate argued the threshold is too high and that the rules effectively grandfather the existing labs while doing nothing about most of the AI systems that affect ordinary people today.",
+        "A US tech industry representative said the downstream deployer rules are unworkable and will be challenged in court as soon as the implementing regulations appear."
+      ]
+    },
+    {
+      "type": "global",
+      "heading": "Global perspective",
+      "content": [
+        "Washington is studying the text. The administration's own framework is expected to borrow the incident reporting structure while diverging on thresholds.",
+        "London has signaled it will not match the rules and is positioning the UK as a lighter-touch alternative jurisdiction.",
+        "Beijing's domestic model rules are already stricter on content but lighter on transparency. Convergence is unlikely."
+      ]
+    },
+    {
+      "type": "whats-next",
+      "heading": "What's next",
+      "content": [
+        "Implementing regulations are due in eighteen months. The detailed evaluation methodology will be the central fight.",
+        "The new oversight body needs to be staffed; senior hires expected by year end.",
+        "Watch for early test cases involving incident reporting, where the seven-day window will be the friction point."
+      ]
+    },
+    {
+      "type": "sources",
+      "heading": "Sources & further reading",
+      "content": [],
+      "sources": [
+        {
+          "label": "EU AI Office briefing",
+          "url": "https://example.com/aioffice"
+        },
+        {
+          "label": "OECD AI Principles",
+          "url": "https://example.com/oecd"
+        }
+      ]
+    }
+  ],
+  "relatedSlugs": [
+    "chip-export-controls-third-wave",
+    "frontier-lab-safety-incident",
+    "ai-copyright-settlement"
+  ],
+  "authorSlug": "mei-zhang"
+}

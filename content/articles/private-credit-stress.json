@@ -1,0 +1,89 @@
+{
+  "slug": "private-credit-stress",
+  "title": "The first cracks in private credit",
+  "subtitle": "Two recent defaults have shifted the conversation from how big the asset class can get to whether it has been pricing risk correctly.",
+  "category": "business",
+  "tags": [
+    "markets",
+    "us",
+    "central-banks"
+  ],
+  "publishedAt": "2026-05-25T08:00:00Z",
+  "readingTime": 7,
+  "image": "https://images.unsplash.com/photo-1604594849809-dfedbc827105?w=1600&h=900&fit=crop",
+  "imageAlt": "Stock market data on a computer screen",
+  "excerpt": "Private credit grew from a niche into a $1.7 trillion asset class on the assumption that flexibility plus seniority offsets opacity. The first defaults are testing that assumption.",
+  "sections": [
+    {
+      "type": "facts",
+      "heading": "The Facts",
+      "content": [
+        "Two private credit defaults in the past quarter have hit recovery rates materially below initial mark estimates.",
+        "Recovery realizations of 38 and 41 cents on the dollar compare to original marks of 70 to 80 cents.",
+        "Both names are in cyclical sectors with structural headwinds; neither was a surprise default to credit analysts.",
+        "Larger private credit funds have begun marking down comparable positions, with industry-wide implied write-downs estimated at 4 to 6 percent of the affected segments."
+      ]
+    },
+    {
+      "type": "why",
+      "heading": "Why It Matters",
+      "content": [
+        "Private credit has been one of the dominant capital allocation stories of the past decade. Its growth depended on the assumption that yields adequately compensated for opacity and lower liquidity.",
+        "Even small write-downs across the asset class compound into large dollar amounts. The institutional investors most exposed are pensions and insurers, which have multi-year duration tolerance but face quarterly mark pressure.",
+        "The wider question is whether the asset class is delivering the risk-adjusted returns that justified the allocation."
+      ]
+    },
+    {
+      "type": "analysis",
+      "heading": "Daniel's view",
+      "content": [
+        "The recovery rates are the data point that matters. Default rates have been rising for two years and were largely shrugged off; the recoveries cannot be.",
+        "The bigger funds are well-positioned to absorb the write-downs and continue raising. The mid-tier managers, particularly those who entered the asset class in the 2021-2022 vintage, are the stress point.",
+        "For the institutional allocators, the question is whether the strategic case for private credit holds at lower assumed recovery rates. For most of them, the answer will still be yes, but the allocation premium narrows."
+      ]
+    },
+    {
+      "type": "another-view",
+      "heading": "Another view",
+      "content": [
+        "A private credit fund executive argued that two idiosyncratic defaults do not represent the asset class and that the senior-secured structure remains protective.",
+        "A bank credit analyst countered that the asset class has not been tested in a sustained credit cycle and that the current data is consistent with the early stages of broader stress."
+      ]
+    },
+    {
+      "type": "global",
+      "heading": "Global perspective",
+      "content": [
+        "European private credit has grown rapidly but from a smaller base; the comparable stress signals there are weaker.",
+        "Asian institutional allocators are rethinking the pace at which they had been increasing exposure.",
+        "Regulators in three jurisdictions have signaled increased scrutiny of valuation methodologies."
+      ]
+    },
+    {
+      "type": "whats-next",
+      "heading": "What's next",
+      "content": [
+        "Watch second-quarter NAV updates from the major closed-end fund vehicles, due in July.",
+        "A handful of mid-tier managers face fundraising tests in the autumn that will be revealing.",
+        "A regulatory move on valuation disclosure within six to nine months is plausible."
+      ]
+    },
+    {
+      "type": "sources",
+      "heading": "Sources & further reading",
+      "content": [],
+      "sources": [
+        {
+          "label": "Federal Reserve Financial Stability Report",
+          "url": "https://example.com/fed-fsr"
+        }
+      ]
+    }
+  ],
+  "relatedSlugs": [
+    "central-bank-pivot",
+    "industrial-policy-return",
+    "sovereign-wealth-utilities"
+  ],
+  "authorSlug": "daniel-okoro"
+}

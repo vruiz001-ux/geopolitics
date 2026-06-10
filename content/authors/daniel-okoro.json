@@ -1,0 +1,19 @@
+{
+  "slug": "daniel-okoro",
+  "name": "Daniel Okoro",
+  "role": "Business & Markets Editor",
+  "bio": "Daniel writes about the intersection of capital and statecraft. He previously reported from Lagos and Johannesburg, and his investigation into sovereign debt restructuring won the Crossroads Prize.",
+  "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
+  "location": "New York",
+  "social": {
+    "twitter": "@danielokoro",
+    "linkedin": "danielokoro",
+    "email": "daniel@geopolitics.example"
+  },
+  "expertise": [
+    "Markets",
+    "Sovereign Debt",
+    "Africa",
+    "M&A"
+  ]
+}

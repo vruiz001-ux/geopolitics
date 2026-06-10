@@ -68,7 +68,7 @@ export default function CategoryPage({ params }: Props) {
               <h2 className="eyebrow mb-6 text-muted">More in {category.name}</h2>
               <div className="grid grid-cols-1 gap-10 sm:grid-cols-2">
                 {rest.map((article) => (
-                  <ArticleCard key={article.id} article={article} variant="medium" showExcerpt />
+                  <ArticleCard key={article.slug} article={article} variant="medium" showExcerpt />
                 ))}
               </div>
             </div>
@@ -78,7 +78,7 @@ export default function CategoryPage({ params }: Props) {
                 <h2 className="eyebrow mb-4 text-muted">Recent picks</h2>
                 <ul className="divide-y divide-rule">
                   {rest.slice(0, 5).map((a) => (
-                    <li key={a.id} className="py-3">
+                    <li key={a.slug} className="py-3">
                       <ArticleCard
                         article={a}
                         variant="list"

@@ -1,0 +1,89 @@
+{
+  "slug": "ai-copyright-settlement",
+  "title": "The AI copyright settlement that will not satisfy anyone",
+  "subtitle": "A negotiated framework between three frontier labs and a coalition of publishers is days away from announcement. The terms favor neither side as much as their lawyers wanted.",
+  "category": "technology",
+  "tags": [
+    "ai",
+    "us",
+    "platforms"
+  ],
+  "publishedAt": "2026-05-21T11:00:00Z",
+  "readingTime": 7,
+  "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1600&h=900&fit=crop",
+  "imageAlt": "Books arranged on a shelf",
+  "excerpt": "The framework creates a licensing pool, attribution standards, and a dispute mechanism. The compensation numbers are smaller than publishers wanted and the precedent is broader than the labs wanted.",
+  "sections": [
+    {
+      "type": "facts",
+      "heading": "The Facts",
+      "content": [
+        "A negotiated framework between three frontier labs and a coalition of publishers is in final review.",
+        "The framework creates a centralized licensing pool, attribution standards for generated content drawing on copyrighted material, and a dispute mechanism.",
+        "Compensation is structured as a percentage of model training compute spend rather than a per-use royalty.",
+        "The structure is designed to bind future labs that join the framework, and to set precedent in pending litigation."
+      ]
+    },
+    {
+      "type": "why",
+      "heading": "Why It Matters",
+      "content": [
+        "The framework will, if it holds, set the de facto standard for AI training data compensation. The pending litigation will be evaluated against this baseline.",
+        "The compute-spend-percentage structure is more predictable for the labs than per-use royalties would have been, but it accepts a precedent that any lab using large amounts of copyrighted training data owes compensation.",
+        "For publishers, the framework establishes a recurring revenue line but at lower levels than the most optimistic projections."
+      ]
+    },
+    {
+      "type": "analysis",
+      "heading": "Mei's view",
+      "content": [
+        "The labs accepted a precedent they could have avoided in litigation, in exchange for predictability. That is a meaningful concession even if the numbers are modest.",
+        "The publishers accepted lower numbers than their lawyers wanted, in exchange for getting a real revenue line now rather than uncertain damages later. That is also a meaningful concession.",
+        "The structure is replicable across other content categories. Image rights, music rights, and code repositories are all candidates for similar frameworks within the next eighteen months."
+      ]
+    },
+    {
+      "type": "another-view",
+      "heading": "Another view",
+      "content": [
+        "A copyright lawyer involved in pending litigation argued the framework undercuts stronger claims that could have prevailed in court.",
+        "An open-source AI advocate warned the framework, by raising the baseline cost of legitimate training data, makes the gap between well-funded labs and open-weight efforts wider."
+      ]
+    },
+    {
+      "type": "global",
+      "heading": "Global perspective",
+      "content": [
+        "The European AI Act's training data transparency requirements interact with the framework in ways that have not been fully tested.",
+        "Japan continues to operate under its 2018 copyright exception for machine learning, which weakens publisher leverage there.",
+        "A handful of national copyright regimes may need legislative updates to accommodate the framework."
+      ]
+    },
+    {
+      "type": "whats-next",
+      "heading": "What's next",
+      "content": [
+        "Announcement expected within two weeks.",
+        "Pending litigation outcomes will determine whether the framework holds or fragments.",
+        "Watch for parallel frameworks in image and music within twelve months."
+      ]
+    },
+    {
+      "type": "sources",
+      "heading": "Sources & further reading",
+      "content": [],
+      "sources": [
+        {
+          "label": "Copyright Office AI report",
+          "url": "https://example.com/copyright"
+        }
+      ]
+    }
+  ],
+  "relatedSlugs": [
+    "ai-model-regulation-final-text",
+    "frontier-lab-safety-incident",
+    "platform-news-deal-collapse"
+  ],
+  "authorSlug": "mei-zhang"
+}

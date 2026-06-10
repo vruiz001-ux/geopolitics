@@ -1,0 +1,90 @@
+{
+  "slug": "crypto-stablecoin-rules",
+  "title": "The stablecoin rules nobody talks about will define the next financial cycle",
+  "subtitle": "Three jurisdictions finalized stablecoin frameworks in the past quarter. The interaction between them will determine whether dollar-denominated stablecoins remain dominant.",
+  "category": "business",
+  "tags": [
+    "us",
+    "eu",
+    "central-banks",
+    "markets"
+  ],
+  "publishedAt": "2026-05-22T14:00:00Z",
+  "readingTime": 8,
+  "image": "https://images.unsplash.com/photo-1518544866330-95a2bec01f0a?w=1600&h=900&fit=crop",
+  "imageAlt": "Abstract financial chart on a blue background",
+  "excerpt": "The reserve requirements look technical. They are not. They determine which currencies host the digital settlement layer the next decade is being built on.",
+  "sections": [
+    {
+      "type": "facts",
+      "heading": "The Facts",
+      "content": [
+        "Three jurisdictions finalized stablecoin frameworks in the past quarter, with reserve, redemption, and disclosure requirements that diverge in important details.",
+        "The US framework permits short-duration Treasury collateral with daily disclosure.",
+        "The EU framework requires partial reserve diversification including non-USD assets.",
+        "A third framework, in an Asian financial center, permits a wider set of reserve instruments but mandates real-time disclosure."
+      ]
+    },
+    {
+      "type": "why",
+      "heading": "Why It Matters",
+      "content": [
+        "Stablecoin volumes have grown to $4.2 trillion in monthly settlement, much of it not visible in traditional financial statistics.",
+        "The reserve composition rules will, in practice, determine the currency mix of the digital settlement layer. The dollar's dominance there is not automatic.",
+        "For sovereign debt markets, the rules also matter. Stablecoin reserves have become a meaningful incremental buyer of short-duration sovereign instruments."
+      ]
+    },
+    {
+      "type": "analysis",
+      "heading": "Daniel's view",
+      "content": [
+        "The frameworks look technical because they are written for compliance officers, but they are actually about which currency hosts the digital monetary layer that gets built on top of them.",
+        "The US framework is structured to entrench dollar dominance. The European framework is structured to dilute it. The Asian framework is structured to compete on flexibility.",
+        "How these regimes interact, particularly whether a stablecoin issued in one framework can be marketed in another, is the next year's central question."
+      ]
+    },
+    {
+      "type": "another-view",
+      "heading": "Another view",
+      "content": [
+        "A monetary policy researcher argued that stablecoin reserves are too small to matter for currency competition and that the frameworks are mostly about consumer protection.",
+        "A digital asset industry executive countered that the rules will accelerate institutional adoption regardless of which currency they favor."
+      ]
+    },
+    {
+      "type": "global",
+      "heading": "Global perspective",
+      "content": [
+        "China's digital yuan continues to develop along a separate, state-led path with limited cross-border interoperability so far.",
+        "Several emerging market central banks are watching the rules closely as they consider their own frameworks.",
+        "The BIS Innovation Hub is coordinating informally between jurisdictions but lacks rule-making authority."
+      ]
+    },
+    {
+      "type": "whats-next",
+      "heading": "What's next",
+      "content": [
+        "Implementing regulations across the three frameworks are due over the next twelve months.",
+        "Cross-border marketing rules are the next major battle.",
+        "Watch the major stablecoin issuers' jurisdictional choices over the next six months."
+      ]
+    },
+    {
+      "type": "sources",
+      "heading": "Sources & further reading",
+      "content": [],
+      "sources": [
+        {
+          "label": "BIS Innovation Hub publications",
+          "url": "https://example.com/bis"
+        }
+      ]
+    }
+  ],
+  "relatedSlugs": [
+    "central-bank-pivot",
+    "industrial-policy-return",
+    "private-credit-stress"
+  ],
+  "authorSlug": "daniel-okoro"
+}

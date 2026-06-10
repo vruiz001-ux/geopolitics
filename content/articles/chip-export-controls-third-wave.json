@@ -1,0 +1,100 @@
+{
+  "slug": "chip-export-controls-third-wave",
+  "title": "The third wave of chip export controls is the one that bites",
+  "subtitle": "New restrictions target the equipment used to make memory chips, a market Beijing was on track to dominate within five years. The fallout will reshape three industries.",
+  "category": "technology",
+  "tags": [
+    "semiconductors",
+    "china",
+    "us",
+    "sanctions"
+  ],
+  "publishedAt": "2026-06-05T14:00:00Z",
+  "readingTime": 11,
+  "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1600&h=900&fit=crop",
+  "imageAlt": "Close-up of a silicon wafer reflecting colored light",
+  "featured": true,
+  "hero": false,
+  "excerpt": "A coordinated rule update from Washington, The Hague, and Tokyo will block the sale of advanced lithography service contracts to roughly thirty Chinese fabs. The supply chain is already adapting.",
+  "sections": [
+    {
+      "type": "facts",
+      "heading": "The Facts",
+      "content": [
+        "The United States, the Netherlands, and Japan issued coordinated export control updates last week targeting service and maintenance contracts on advanced lithography and deposition equipment installed in roughly thirty named Chinese facilities.",
+        "The rules close a workaround that had allowed Chinese fabs to keep older equipment running through third-party service intermediaries based in Singapore and Malaysia.",
+        "Memory chip producers in Wuxi and Hefei are the most exposed. Analysts estimate the new rules will cut the affected fabs' effective capacity by 30 to 45 percent within eighteen months.",
+        "Equipment makers ASML and Tokyo Electron have already revised guidance. Lam Research is expected to follow."
+      ]
+    },
+    {
+      "type": "why",
+      "heading": "Why It Matters",
+      "content": [
+        "Memory was the segment where Chinese fabs had a credible path to global cost leadership within the decade. These rules close that path for the foreseeable future.",
+        "Global memory pricing, which has been soft for two years, will likely firm up through 2027 as Chinese capacity stalls and incumbents discipline output.",
+        "The broader signal is the consolidation of an allied export control regime. Three years ago, this kind of coordination was thought impossible. It is now routine."
+      ]
+    },
+    {
+      "type": "analysis",
+      "heading": "Mei's view",
+      "content": [
+        "I spent last week in Hsinchu and Tainan. The mood in the executive offices is quiet relief mixed with anxiety about what comes next.",
+        "Relief because the immediate competitive pressure from Yangtze Memory and CXMT recedes. Anxiety because every executive I spoke to understands that Beijing will respond, and the most plausible response targets the rare earth and gallium markets where China has near-monopoly leverage.",
+        "The first-order impact is bullish for the memory incumbents. The second-order impact, the retaliatory escalation, is bearish for the entire semiconductor supply chain."
+      ]
+    },
+    {
+      "type": "another-view",
+      "heading": "Another view",
+      "content": [
+        "A semiconductor analyst in Seoul argues the controls are already priced in and that Chinese fabs have eighteen months of stockpiled spare parts. The cliff is real but slower than the consensus.",
+        "A former Commerce Department official says the rules are too narrow and that the next wave should target the analog and power chip segments where Chinese producers have been quietly building dominant positions."
+      ]
+    },
+    {
+      "type": "global",
+      "heading": "Global perspective",
+      "content": [
+        "In Brussels, officials are studying whether to join the coordinated regime formally. The European Council will discuss the question in the autumn.",
+        "South Korean memory producers are publicly supportive and privately uncomfortable. They benefit from reduced competition but worry about retaliation against their Chinese assembly footprint.",
+        "India is using the moment to pitch a renewed industrial policy package to attract memory packaging investment, particularly to Gujarat."
+      ]
+    },
+    {
+      "type": "whats-next",
+      "heading": "What's next",
+      "content": [
+        "Watch for a Chinese countermeasure within sixty days. The most likely target is the gallium and germanium export licensing regime, which Beijing tightened last year.",
+        "A possible Korean exemption is under negotiation. If granted, it will signal the rules are aimed narrowly at Chinese capacity rather than the broader memory market.",
+        "Equipment maker earnings in late July will be the first hard read on the demand impact."
+      ]
+    },
+    {
+      "type": "sources",
+      "heading": "Sources & further reading",
+      "content": [],
+      "sources": [
+        {
+          "label": "BIS rule update, June",
+          "url": "https://example.com/bis"
+        },
+        {
+          "label": "METI export control notice",
+          "url": "https://example.com/meti"
+        },
+        {
+          "label": "CSIS chip war tracker",
+          "url": "https://example.com/chip-tracker"
+        }
+      ]
+    }
+  ],
+  "relatedSlugs": [
+    "eu-summit-defense-package",
+    "ai-model-regulation-final-text",
+    "frontier-lab-safety-incident"
+  ],
+  "authorSlug": "mei-zhang"
+}

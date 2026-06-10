@@ -1,31 +1,69 @@
-import { articles } from '@/data/articles';
-import { authors } from '@/data/authors';
-import { categories } from '@/data/categories';
-import { newsletters } from '@/data/newsletters';
-import { tags } from '@/data/tags';
-import type { Article, Author, Category, Newsletter } from './types';
+import { readFileSync, readdirSync } from 'node:fs';
+import { join } from 'node:path';
+import type { Article, Author, Category, Newsletter, Tag } from './types';
+
+const contentRoot = join(process.cwd(), 'content');
+
+function readJson<T>(rel: string): T {
+  return JSON.parse(readFileSync(join(contentRoot, rel), 'utf8')) as T;
+}
+
+function readCollection<T>(dir: string): T[] {
+  const path = join(contentRoot, dir);
+  let files: string[] = [];
+  try {
+    files = readdirSync(path).filter((f) => f.endsWith('.json'));
+  } catch {
+    return [];
+  }
+  return files.map((f) => readJson<T>(`${dir}/${f}`));
+}
+
+// In-memory caches built once per build
+const _articles: Article[] = readCollection<Article>('articles');
+const _authors: Author[] = readCollection<Author>('authors');
+const _categories: Category[] = readCollection<Category>('categories');
+const _newsletters: Newsletter[] = readCollection<Newsletter>('newsletters');
+let _tags: Tag[] = [];
+try {
+  _tags = readJson<Tag[]>('tags.json');
+} catch {
+  _tags = [];
+}
+
+// Preserve declared category order from old file by using a canonical sort:
+// politics, business, technology, climate, world, media; unknowns alphabetical after.
+const CATEGORY_ORDER = ['politics', 'business', 'technology', 'climate', 'world', 'media'];
+_categories.sort((a, b) => {
+  const ai = CATEGORY_ORDER.indexOf(a.slug);
+  const bi = CATEGORY_ORDER.indexOf(b.slug);
+  if (ai === -1 && bi === -1) return a.name.localeCompare(b.name);
+  if (ai === -1) return 1;
+  if (bi === -1) return -1;
+  return ai - bi;
+});
 
 export function getAllArticles(): Article[] {
-  return [...articles].sort(
+  return [..._articles].sort(
     (a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
   );
 }
 
 export function getArticleBySlug(slug: string): Article | undefined {
-  return articles.find((a) => a.slug === slug);
+  return _articles.find((a) => a.slug === slug);
 }
 
 export function getArticlesByCategory(category: string): Article[] {
   return getAllArticles().filter((a) => a.category === category);
 }
 
-export function getArticlesByAuthor(authorId: string): Article[] {
-  return getAllArticles().filter((a) => a.authorId === authorId);
+export function getArticlesByAuthor(authorSlug: string): Article[] {
+  return getAllArticles().filter((a) => a.authorSlug === authorSlug);
 }
 
 export function getRelatedArticles(article: Article): Article[] {
-  return article.relatedArticleIds
-    .map((id) => articles.find((a) => a.id === id))
+  return (article.relatedSlugs ?? [])
+    .map((s) => _articles.find((a) => a.slug === s))
     .filter((a): a is Article => Boolean(a));
 }
 
@@ -41,47 +79,43 @@ export function getLatestArticles(limit = 6): Article[] {
   return getAllArticles().slice(0, limit);
 }
 
-export function getAuthorById(id: string): Author | undefined {
-  return authors.find((a) => a.id === id);
-}
-
 export function getAuthorBySlug(slug: string): Author | undefined {
-  return authors.find((a) => a.slug === slug);
+  return _authors.find((a) => a.slug === slug);
 }
 
 export function getCategoryBySlug(slug: string): Category | undefined {
-  return categories.find((c) => c.slug === slug);
+  return _categories.find((c) => c.slug === slug);
 }
 
 export function getAllCategories(): Category[] {
-  return categories;
+  return _categories;
 }
 
 export function getAllAuthors(): Author[] {
-  return authors;
+  return _authors;
 }
 
 export function getAllNewsletters(): Newsletter[] {
-  return newsletters;
+  return _newsletters;
 }
 
 export function getNewsletterBySlug(slug: string): Newsletter | undefined {
-  return newsletters.find((n) => n.slug === slug);
-}
-
-export function getTagByslug(slug: string) {
-  return tags.find((t) => t.slug === slug);
+  return _newsletters.find((n) => n.slug === slug);
 }
 
 export function getTagName(slug: string): string {
-  return tags.find((t) => t.slug === slug)?.name ?? slug;
+  return _tags.find((t) => t.slug === slug)?.name ?? slug;
+}
+
+export function getAllTags(): Tag[] {
+  return _tags;
 }
 
 export function searchArticles(query: string): Article[] {
   const q = query.trim().toLowerCase();
   if (!q) return [];
   return getAllArticles().filter((a) => {
-    const author = getAuthorById(a.authorId);
+    const author = getAuthorBySlug(a.authorSlug);
     const haystack = [
       a.title,
       a.subtitle,

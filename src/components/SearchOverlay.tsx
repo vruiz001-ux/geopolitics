@@ -3,7 +3,10 @@
 import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import { X, Search as SearchIcon } from 'lucide-react';
-import { searchArticles, getAuthorById, getCategoryBySlug } from '@/lib/data';
+import {
+  filterArticles,
+  type ArticleSearchLite,
+} from '@/lib/search-types';
 
 interface Props {
   open: boolean;
@@ -12,8 +15,24 @@ interface Props {
 
 export function SearchOverlay({ open, onClose }: Props) {
   const [query, setQuery] = useState('');
+  const [index, setIndex] = useState<ArticleSearchLite[]>([]);
   const inputRef = useRef<HTMLInputElement>(null);
   const overlayRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    let cancelled = false;
+    if (open && index.length === 0) {
+      fetch('/search-index.json')
+        .then((r) => r.json())
+        .then((data) => {
+          if (!cancelled) setIndex(data);
+        })
+        .catch(() => {});
+    }
+    return () => {
+      cancelled = true;
+    };
+  }, [open, index.length]);
 
   useEffect(() => {
     if (open) {
@@ -39,7 +58,7 @@ export function SearchOverlay({ open, onClose }: Props) {
 
   if (!open) return null;
 
-  const results = searchArticles(query).slice(0, 8);
+  const results = filterArticles(index, query).slice(0, 8);
 
   return (
     <div
@@ -95,26 +114,22 @@ export function SearchOverlay({ open, onClose }: Props) {
               </div>
             </div>
           )}
-          {results.map((article) => {
-            const author = getAuthorById(article.authorId);
-            const category = getCategoryBySlug(article.category);
-            return (
-              <Link
-                key={article.id}
-                href={`/article/${article.slug}`}
-                onClick={onClose}
-                className="block rounded-lg px-3 py-3 transition-colors hover:bg-rule/40"
-              >
-                <p className="eyebrow text-accent">{category?.name}</p>
-                <p className="mt-1 font-serif text-[1.05rem] font-semibold leading-snug text-ink">
-                  {article.title}
-                </p>
-                <p className="mt-1 font-sans text-xs text-muted">
-                  By {author?.name} · {article.readingTime} min read
-                </p>
-              </Link>
-            );
-          })}
+          {results.map((article) => (
+            <Link
+              key={article.slug}
+              href={`/article/${article.slug}`}
+              onClick={onClose}
+              className="block rounded-lg px-3 py-3 transition-colors hover:bg-rule/40"
+            >
+              <p className="eyebrow text-accent">{article.categoryName}</p>
+              <p className="mt-1 font-serif text-[1.05rem] font-semibold leading-snug text-ink">
+                {article.title}
+              </p>
+              <p className="mt-1 font-sans text-xs text-muted">
+                By {article.authorName} · {article.readingTime} min read
+              </p>
+            </Link>
+          ))}
         </div>
       </div>
     </div>

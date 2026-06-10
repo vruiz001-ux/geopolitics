@@ -29,7 +29,7 @@ export function generateMetadata({ params }: Props): Metadata {
 export default function AuthorPage({ params }: Props) {
   const author = getAuthorBySlug(params.slug);
   if (!author) return notFound();
-  const articles = getArticlesByAuthor(author.id);
+  const articles = getArticlesByAuthor(author.slug);
 
   return (
     <div className="container-wide py-10 lg:py-16">
@@ -104,7 +104,7 @@ export default function AuthorPage({ params }: Props) {
         ) : (
           <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-3">
             {articles.map((article) => (
-              <ArticleCard key={article.id} article={article} variant="medium" showExcerpt />
+              <ArticleCard key={article.slug} article={article} variant="medium" showExcerpt />
             ))}
           </div>
         )}

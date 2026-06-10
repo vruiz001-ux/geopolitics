@@ -1,0 +1,93 @@
+{
+  "slug": "central-bank-pivot",
+  "title": "Two more central banks pivot. The question is whether the Fed follows.",
+  "subtitle": "The Bank of Canada cut yesterday. The ECB cuts next week, almost certainly. Powell's next move is the one that matters for global capital flows.",
+  "category": "business",
+  "tags": [
+    "central-banks",
+    "markets",
+    "us"
+  ],
+  "publishedAt": "2026-06-02T13:00:00Z",
+  "readingTime": 7,
+  "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1600&h=900&fit=crop",
+  "imageAlt": "Skyscrapers in a financial district at dusk",
+  "excerpt": "Markets have priced two more US cuts this year. The minutes suggest the FOMC is less convinced. The mismatch is setting up a volatile summer.",
+  "sections": [
+    {
+      "type": "facts",
+      "heading": "The Facts",
+      "content": [
+        "The Bank of Canada cut its policy rate by 25 basis points yesterday, the third cut in this cycle.",
+        "The European Central Bank meets next week; market-implied probability of a cut sits at 92 percent.",
+        "The Bank of England signaled in last week's minutes that a cut is possible at the August meeting.",
+        "Federal Reserve minutes released last week showed greater caution than markets had expected, with multiple participants flagging sticky services inflation."
+      ]
+    },
+    {
+      "type": "why",
+      "heading": "Why It Matters",
+      "content": [
+        "A growing divergence between the Fed and other major central banks would strengthen the dollar materially and put renewed pressure on emerging market currencies.",
+        "For emerging market sovereign borrowers, the dollar path is the dominant variable. A delayed Fed pivot means another six months of expensive funding.",
+        "The divergence also raises questions about the political durability of independent central banking, with the US election cycle making the politics of high rates harder."
+      ]
+    },
+    {
+      "type": "analysis",
+      "heading": "Daniel's view",
+      "content": [
+        "The market is pricing two cuts this year. The minutes suggest one, possibly zero. That gap is the trade for the summer.",
+        "The interesting positioning is in EM sovereign credit. The spread compression of the past three months assumes the dollar weakens. If it does not, those positions unwind quickly.",
+        "Powell's political situation is harder than the market acknowledges. The institutional pressure to ease before the election is real even if the data does not support it."
+      ]
+    },
+    {
+      "type": "another-view",
+      "heading": "Another view",
+      "content": [
+        "A former FOMC governor argued that the minutes are being over-read and that the median participant remains comfortable with two cuts on the current data.",
+        "A sovereign debt strategist countered that EM has more cushion than 2022 levels suggest, and that the pivot delay is manageable."
+      ]
+    },
+    {
+      "type": "global",
+      "heading": "Global perspective",
+      "content": [
+        "Japan continues to normalize on its own track, mostly disconnected from the Fed cycle.",
+        "Emerging market central banks are increasingly willing to ease ahead of the Fed, a shift from the 2022 pattern when they followed.",
+        "China is running a different cycle entirely, with quasi-fiscal stimulus substituting for explicit rate moves."
+      ]
+    },
+    {
+      "type": "whats-next",
+      "heading": "What's next",
+      "content": [
+        "ECB next Thursday. The press conference will be more important than the decision itself.",
+        "US payrolls on Friday. A soft print would partially close the market-Fed gap.",
+        "The September FOMC is the live meeting. Positioning into it is already underway."
+      ]
+    },
+    {
+      "type": "sources",
+      "heading": "Sources & further reading",
+      "content": [],
+      "sources": [
+        {
+          "label": "FOMC minutes",
+          "url": "https://example.com/fomc"
+        },
+        {
+          "label": "ECB monetary policy decisions",
+          "url": "https://example.com/ecb"
+        }
+      ]
+    }
+  ],
+  "relatedSlugs": [
+    "sovereign-wealth-utilities",
+    "industrial-policy-return",
+    "private-credit-stress"
+  ],
+  "authorSlug": "daniel-okoro"
+}

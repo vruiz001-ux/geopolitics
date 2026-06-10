@@ -1,0 +1,89 @@
+{
+  "slug": "world-cup-soft-power",
+  "title": "A football tournament that revealed three things about global soft power",
+  "subtitle": "The hosting bid that won was not the one analysts predicted. The diplomatic side deals that came with it are the story.",
+  "category": "world",
+  "tags": [
+    "middle-east",
+    "us",
+    "eu"
+  ],
+  "publishedAt": "2026-05-17T15:00:00Z",
+  "readingTime": 6,
+  "image": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=1600&h=900&fit=crop",
+  "imageAlt": "Empty football stadium during sunset",
+  "excerpt": "The vote was 17 to 14. The diplomatic coordination behind those numbers tells a more interesting story than the result itself.",
+  "sections": [
+    {
+      "type": "facts",
+      "heading": "The Facts",
+      "content": [
+        "A major football tournament hosting decision was made last week, with the winning bid taking the vote 17 to 14.",
+        "The result was not predicted by most analysts, who expected the rival bid to win comfortably.",
+        "Three of the swing votes appear to have shifted in the final week, following diplomatic engagement that included unrelated commercial and security deals.",
+        "The winning bid involves infrastructure commitments of roughly $14 billion over six years."
+      ]
+    },
+    {
+      "type": "why",
+      "heading": "Why It Matters",
+      "content": [
+        "The result is a clear demonstration of how soft power has been re-weaponized as a vehicle for broader diplomatic coordination.",
+        "For the federations that switched their votes, the side deals create lasting commitments that extend well beyond the tournament itself.",
+        "The losing bid included established Western backers, which underscores the relative decline of traditional diplomatic levers in sports governance."
+      ]
+    },
+    {
+      "type": "analysis",
+      "heading": "Iris's view",
+      "content": [
+        "Sports hosting decisions have always involved deal-making. The change is the scale and the explicitness of the side deals.",
+        "The pattern matches what we have seen in three other multilateral votes this year. A coordinated state actor uses bilateral commercial leverage to swing small numbers of votes in venues where small numbers matter.",
+        "The lesson for Western foreign ministries is that traditional public diplomacy is not enough. The competition is happening on commercial terrain that ministries are not structured to operate on."
+      ]
+    },
+    {
+      "type": "another-view",
+      "heading": "Another view",
+      "content": [
+        "A senior sports administrator argued the side-deal narrative overstates the role of diplomatic coordination and that the bid simply made a more compelling commercial offer.",
+        "A diplomat in one of the losing capitals admitted the bid had been complacent and that the result reflects strategic underinvestment, not just one-off side deals."
+      ]
+    },
+    {
+      "type": "global",
+      "heading": "Global perspective",
+      "content": [
+        "Several other major sports hosting decisions are due in the next eighteen months. The pattern is likely to repeat.",
+        "The losing coalition is reportedly discussing more coordinated bid strategies, though political support is uneven.",
+        "For multilateral institutions outside sports, the implications are the question."
+      ]
+    },
+    {
+      "type": "whats-next",
+      "heading": "What's next",
+      "content": [
+        "Infrastructure commitments under the winning bid will be tracked closely.",
+        "Watch for similar dynamics in upcoming federation elections.",
+        "The losing capitals are reassessing their broader soft-power strategy."
+      ]
+    },
+    {
+      "type": "sources",
+      "heading": "Sources & further reading",
+      "content": [],
+      "sources": [
+        {
+          "label": "Play the Game research",
+          "url": "https://example.com/playthegame"
+        }
+      ]
+    }
+  ],
+  "relatedSlugs": [
+    "turkey-pivot",
+    "india-china-border",
+    "eastern-europe-election-result"
+  ],
+  "authorSlug": "iris-marchand"
+}

@@ -1,0 +1,88 @@
+{
+  "slug": "green-hydrogen-reality-check",
+  "title": "The green hydrogen reality check has arrived",
+  "subtitle": "Three flagship projects cancelled in two months. The technology works. The economics, at current power prices, do not.",
+  "category": "climate",
+  "tags": [
+    "climate",
+    "energy"
+  ],
+  "publishedAt": "2026-06-01T10:00:00Z",
+  "readingTime": 8,
+  "image": "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?w=1600&h=900&fit=crop",
+  "imageAlt": "Wind turbines on a hillside",
+  "excerpt": "The cancellations are not a verdict on hydrogen. They are a verdict on the assumption that subsidies plus cheap renewables would close the gap on their own. Without firm offtake, they do not.",
+  "sections": [
+    {
+      "type": "facts",
+      "heading": "The Facts",
+      "content": [
+        "Three large-scale green hydrogen projects have been cancelled or indefinitely postponed in the past two months, with combined nameplate capacity of 2.1 GW of electrolysis.",
+        "Affected projects span Spain, Australia, and a Gulf state, all previously held up as flagship demonstrations of the emerging supply chain.",
+        "The common factor across cancellations is the absence of firm offtake contracts at prices that close the gap to grey hydrogen.",
+        "Project costs have risen roughly 35 percent from 2022 estimates, driven by power purchase agreements and balance-of-plant inflation."
+      ]
+    },
+    {
+      "type": "why",
+      "heading": "Why It Matters",
+      "content": [
+        "Green hydrogen was the centerpiece of decarbonization plans for heavy industry, shipping, and chemicals. Its delay reshapes the achievable trajectory for those sectors.",
+        "The cancellations also reset investor expectations and will reduce capital availability for the next wave of projects, even ones with stronger fundamentals.",
+        "The political durability of net-zero plans depends on demonstration projects working. When the flagship projects fail, the broader plans lose credibility."
+      ]
+    },
+    {
+      "type": "analysis",
+      "heading": "Rafael's view",
+      "content": [
+        "The cancellations are not a failure of the technology. The electrolyzer cost curve is moving in the right direction. The failure is a policy design that assumed subsidies plus cheap renewables would create demand.",
+        "They do not. The buyers, mostly hard-to-abate industrials, need certainty on both price and supply. The current contract structures deliver neither.",
+        "The fix is not more subsidy on the supply side. It is firm offtake mandates or contracts-for-difference on the demand side. Until governments are willing to take that step, the next wave of projects will look like the last."
+      ]
+    },
+    {
+      "type": "another-view",
+      "heading": "Another view",
+      "content": [
+        "A hydrogen industry executive argued the cancellations are a healthy correction and that the projects proceeding now are better structured and more likely to succeed.",
+        "A climate policy researcher pushed back on the offtake-mandate framing, noting that the political coalition required to impose mandates on industry is weaker than it was two years ago."
+      ]
+    },
+    {
+      "type": "global",
+      "heading": "Global perspective",
+      "content": [
+        "The US Inflation Reduction Act's hydrogen tax credit, in its narrower interpretation, is delivering projects but at a smaller scale than originally projected.",
+        "Japan and South Korea are pivoting toward blue hydrogen and ammonia imports while the green economics improve.",
+        "Chile and Namibia, two of the most ambitious green hydrogen export hopes, are recalibrating timelines."
+      ]
+    },
+    {
+      "type": "whats-next",
+      "heading": "What's next",
+      "content": [
+        "EU revision of the Renewable Energy Directive provisions on hydrogen is due in the autumn. The additionality and temporal correlation rules will be the central fight.",
+        "A handful of projects with credible firm offtake remain on track. Watch their final investment decisions over the next twelve months.",
+        "Steel and ammonia offtake contracts will be the test. If those sectors do not sign, the green hydrogen demand case weakens further."
+      ]
+    },
+    {
+      "type": "sources",
+      "heading": "Sources & further reading",
+      "content": [],
+      "sources": [
+        {
+          "label": "IEA hydrogen review 2025",
+          "url": "https://example.com/iea-h2"
+        }
+      ]
+    }
+  ],
+  "relatedSlugs": [
+    "lithium-collapse",
+    "industrial-policy-return",
+    "africa-energy-leapfrog"
+  ],
+  "authorSlug": "rafael-cordoba"
+}

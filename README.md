@@ -54,9 +54,19 @@ src/
   lib/                  Helpers & types
 ```
 
-## Data model
+## Editing content (CMS)
 
-All mock content lives in `src/data/`. The shape mirrors what a CMS would return so swapping in Sanity, Strapi, Payload, or another headless source is a matter of replacing the helpers in `src/lib/data.ts`. See `src/lib/types.ts` for the schema.
+All content lives as JSON files in `content/` — articles, authors, categories, newsletters, and tags. The code in `src/` is the frame; the CMS only ever touches `content/`, so editors cannot break the design.
+
+**Edit in the browser:** open [`/admin`](https://geopolitics-vruiz001.netlify.app/admin) on the live site. Sign in with a GitHub personal access token (Settings → Developer settings → Fine-grained tokens → grant read/write on this repo's Contents). Every save commits to `main`, which triggers an automatic redeploy via GitHub Actions — your change is live in ~2 minutes.
+
+**Edit locally:** run `npx @sveltia/cms-server` in one terminal and `npm run dev` in another, then open `http://localhost:3000/admin/index.html` and pick "Work with local repository". Or just edit the JSON files in `content/` directly.
+
+The data layer reads `content/` at build time in `src/lib/data.ts`. Swapping in Sanity, Strapi, or Payload later means replacing those helpers only. See `src/lib/types.ts` for the schema.
+
+## Deployment
+
+The Netlify site is linked to this GitHub repo: every push to `main` (including CMS saves) triggers an automatic build and deploy. Manual deploy: `npx netlify-cli deploy --build --prod`.
 
 ## Design
 

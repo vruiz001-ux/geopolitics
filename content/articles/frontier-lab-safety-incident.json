@@ -1,0 +1,89 @@
+{
+  "slug": "frontier-lab-safety-incident",
+  "title": "A frontier lab's safety incident, and what it tells us about the next wave",
+  "subtitle": "The incident was contained quickly and disclosed within the new seven-day window. The interesting question is what happens when a lab decides not to disclose.",
+  "category": "technology",
+  "tags": [
+    "ai",
+    "us",
+    "platforms"
+  ],
+  "publishedAt": "2026-05-29T12:00:00Z",
+  "readingTime": 7,
+  "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1600&h=900&fit=crop",
+  "imageAlt": "Abstract image of glowing circuit lines",
+  "excerpt": "A red-team exercise surfaced a capability that the lab had not previously documented. The disclosure was clean. The next one will not be.",
+  "sections": [
+    {
+      "type": "facts",
+      "heading": "The Facts",
+      "content": [
+        "A frontier lab disclosed last week that an internal red-team exercise surfaced an unanticipated capability in its latest model.",
+        "The capability involved improved chemistry reasoning above the threshold the lab had committed to flag.",
+        "Disclosure to the new oversight body occurred within six days of the finding, inside the seven-day window.",
+        "Deployment of the model was paused pending evaluation, with the lab estimating a four to six week delay."
+      ]
+    },
+    {
+      "type": "why",
+      "heading": "Why It Matters",
+      "content": [
+        "This is the first significant disclosure under the new regime, and the cleanness of it sets a precedent for how subsequent incidents will be handled.",
+        "The four to six week deployment delay is meaningful commercial cost. If the regime is to remain credible, that cost has to be borne consistently.",
+        "The harder test will come when a lab is tempted not to disclose. The detection mechanisms outside the labs themselves are weak."
+      ]
+    },
+    {
+      "type": "analysis",
+      "heading": "Mei's view",
+      "content": [
+        "This was the easy case. The lab caught the capability internally, disclosed within the window, and absorbed the deployment delay. The regime worked because the lab wanted it to work.",
+        "The hard cases are the ones where the capability is surfaced post-deployment, or where the lab's internal evaluation processes do not catch it. The current rules assume the labs are the primary evaluators, and that assumption has not been tested.",
+        "Watch for the first non-disclosure dispute. It is the case that will define whether the regime has teeth."
+      ]
+    },
+    {
+      "type": "another-view",
+      "heading": "Another view",
+      "content": [
+        "A safety researcher argued the incident shows the regime working as designed and that external evaluation should remain a complement rather than a substitute for internal red-teaming.",
+        "A competing lab pointed out that the disclosed capability is not, in their view, materially above existing models, raising questions about how the thresholds are being interpreted."
+      ]
+    },
+    {
+      "type": "global",
+      "heading": "Global perspective",
+      "content": [
+        "EU regulators welcomed the disclosure as validating the framework adopted last year.",
+        "US officials have used the incident to push their own framework, which would mandate similar disclosure with different thresholds.",
+        "UK Safety Institute has been quietly involved in the technical evaluation, a signal of the cross-jurisdictional cooperation that has emerged in this area."
+      ]
+    },
+    {
+      "type": "whats-next",
+      "heading": "What's next",
+      "content": [
+        "Deployment redate expected in early July.",
+        "The oversight body is preparing a public summary of the evaluation, due within sixty days.",
+        "Other labs are accelerating their own red-team protocols in anticipation of similar findings."
+      ]
+    },
+    {
+      "type": "sources",
+      "heading": "Sources & further reading",
+      "content": [],
+      "sources": [
+        {
+          "label": "AI Safety Institute reports",
+          "url": "https://example.com/aisi"
+        }
+      ]
+    }
+  ],
+  "relatedSlugs": [
+    "ai-model-regulation-final-text",
+    "chip-export-controls-third-wave",
+    "ai-copyright-settlement"
+  ],
+  "authorSlug": "mei-zhang"
+}

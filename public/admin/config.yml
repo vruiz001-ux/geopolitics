@@ -1,0 +1,182 @@
+backend:
+  name: github
+  repo: vruiz001-ux/geopolitics
+  branch: main
+
+media_folder: public/uploads
+public_folder: /uploads
+
+site_url: https://geopolitics-vruiz001.netlify.app
+display_url: https://geopolitics-vruiz001.netlify.app
+
+collections:
+  - name: articles
+    label: Articles
+    label_singular: Article
+    folder: content/articles
+    create: true
+    extension: json
+    format: json
+    slug: '{{fields.slug}}'
+    identifier_field: title
+    summary: '{{title}} — {{category}}'
+    sortable_fields: [publishedAt, title]
+    fields:
+      - { name: slug, label: 'URL slug', widget: string, hint: 'Lowercase, hyphens only. Becomes /article/<slug>. Do not change after publishing.', pattern: ['^[a-z0-9]+(-[a-z0-9]+)*$', 'Lowercase letters, numbers, and hyphens only'] }
+      - { name: title, label: Title, widget: string }
+      - { name: subtitle, label: 'Subtitle / dek', widget: text }
+      - name: category
+        label: Category
+        widget: relation
+        collection: categories
+        value_field: slug
+        search_fields: [name]
+        display_fields: [name]
+      - name: tags
+        label: Tags
+        widget: list
+        field: { name: tag, label: Tag, widget: string }
+        hint: 'Tag slugs, e.g. eu, china, ai. Manage the vocabulary in Settings > Tags.'
+        required: false
+      - name: authorSlug
+        label: Author
+        widget: relation
+        collection: authors
+        value_field: slug
+        search_fields: [name]
+        display_fields: [name]
+      - { name: publishedAt, label: 'Published at', widget: datetime, format: "YYYY-MM-DDTHH:mm:ss[Z]", date_format: 'YYYY-MM-DD', time_format: 'HH:mm', picker_utc: true }
+      - { name: readingTime, label: 'Reading time (minutes)', widget: number, value_type: int, min: 1, max: 60, default: 6 }
+      - { name: image, label: 'Hero image', widget: image, choose_url: true }
+      - { name: imageAlt, label: 'Image alt text', widget: string }
+      - { name: imageCredit, label: 'Image credit', widget: string, required: false }
+      - { name: featured, label: 'Featured on homepage', widget: boolean, default: false, required: false }
+      - { name: hero, label: 'Homepage hero (only one article should have this)', widget: boolean, default: false, required: false }
+      - { name: excerpt, label: 'Excerpt / In brief', widget: text }
+      - name: sections
+        label: 'Story sections'
+        widget: list
+        summary: '{{fields.heading}}'
+        fields:
+          - name: type
+            label: 'Section type'
+            widget: select
+            options:
+              - { label: 'The Facts', value: facts }
+              - { label: 'Why It Matters', value: why }
+              - { label: "Reporter's Analysis", value: analysis }
+              - { label: 'Another View', value: another-view }
+              - { label: 'Global Perspective', value: global }
+              - { label: "What's Next", value: whats-next }
+              - { label: 'Sources / Further Reading', value: sources }
+          - { name: heading, label: Heading, widget: string }
+          - name: content
+            label: Paragraphs
+            widget: list
+            field: { name: paragraph, label: Paragraph, widget: text }
+            required: false
+          - name: sources
+            label: 'Source links (only for the Sources section)'
+            widget: list
+            required: false
+            fields:
+              - { name: label, label: Label, widget: string }
+              - { name: url, label: URL, widget: string }
+      - name: relatedSlugs
+        label: 'Related articles'
+        widget: list
+        required: false
+        field:
+          name: related
+          label: Article
+          widget: relation
+          collection: articles
+          value_field: slug
+          search_fields: [title]
+          display_fields: [title]
+
+  - name: authors
+    label: Authors
+    label_singular: Author
+    folder: content/authors
+    create: true
+    extension: json
+    format: json
+    slug: '{{fields.slug}}'
+    identifier_field: name
+    fields:
+      - { name: slug, label: 'URL slug', widget: string, pattern: ['^[a-z0-9]+(-[a-z0-9]+)*$', 'Lowercase letters, numbers, and hyphens only'] }
+      - { name: name, label: Name, widget: string }
+      - { name: role, label: Role, widget: string }
+      - { name: bio, label: Bio, widget: text }
+      - { name: avatar, label: Avatar, widget: image, choose_url: true }
+      - { name: location, label: Location, widget: string }
+      - name: social
+        label: Social
+        widget: object
+        required: false
+        fields:
+          - { name: twitter, label: Twitter handle, widget: string, required: false }
+          - { name: linkedin, label: LinkedIn slug, widget: string, required: false }
+          - { name: email, label: Email, widget: string, required: false }
+      - name: expertise
+        label: Expertise
+        widget: list
+        field: { name: topic, label: Topic, widget: string }
+        required: false
+
+  - name: categories
+    label: Categories
+    label_singular: Category
+    folder: content/categories
+    create: true
+    extension: json
+    format: json
+    slug: '{{fields.slug}}'
+    identifier_field: name
+    fields:
+      - { name: slug, label: 'URL slug', widget: string, pattern: ['^[a-z0-9]+(-[a-z0-9]+)*$', 'Lowercase letters, numbers, and hyphens only'] }
+      - { name: name, label: Name, widget: string }
+      - { name: shortName, label: 'Short name (nav label)', widget: string }
+      - { name: description, label: Description, widget: text }
+      - { name: color, label: 'Accent color (hex)', widget: color }
+
+  - name: newsletters
+    label: Newsletters
+    label_singular: Newsletter
+    folder: content/newsletters
+    create: true
+    extension: json
+    format: json
+    slug: '{{fields.slug}}'
+    identifier_field: name
+    fields:
+      - { name: slug, label: 'URL slug', widget: string, pattern: ['^[a-z0-9]+(-[a-z0-9]+)*$', 'Lowercase letters, numbers, and hyphens only'] }
+      - { name: name, label: Name, widget: string }
+      - { name: description, label: Description, widget: text }
+      - { name: frequency, label: Frequency, widget: string, hint: 'e.g. Weekdays, 6:30am ET' }
+      - name: authorSlug
+        label: Author
+        widget: relation
+        collection: authors
+        value_field: slug
+        search_fields: [name]
+        display_fields: [name]
+      - { name: subscribers, label: 'Subscriber count label', widget: string, hint: 'e.g. 184K' }
+      - { name: preview, label: 'Preview line', widget: text }
+      - { name: accent, label: 'Accent color (hex)', widget: color }
+
+  - name: settings
+    label: Settings
+    files:
+      - name: tags
+        label: Tags
+        file: content/tags.json
+        fields:
+          - name: tags
+            label: Tags
+            widget: list
+            root: true
+            fields:
+              - { name: slug, label: Slug, widget: string, pattern: ['^[a-z0-9]+(-[a-z0-9]+)*$', 'Lowercase letters, numbers, and hyphens only'] }
+              - { name: name, label: 'Display name', widget: string }

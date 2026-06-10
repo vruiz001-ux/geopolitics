@@ -1,0 +1,19 @@
+{
+  "slug": "rafael-cordoba",
+  "name": "Rafael Córdoba",
+  "role": "Senior Climate Reporter",
+  "bio": "Rafael covers the energy transition and the politics of decarbonization. His work has taken him from lithium fields in the Atacama to wind farms in the North Sea.",
+  "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop",
+  "location": "Mexico City",
+  "social": {
+    "twitter": "@rafcordoba",
+    "linkedin": "rafael-cordoba",
+    "email": "rafael@geopolitics.example"
+  },
+  "expertise": [
+    "Energy",
+    "Climate Policy",
+    "Latin America",
+    "Critical Minerals"
+  ]
+}

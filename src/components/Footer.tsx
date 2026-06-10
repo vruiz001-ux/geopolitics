@@ -1,9 +1,10 @@
 import Link from 'next/link';
 import { Mail, Twitter, Linkedin, Rss } from 'lucide-react';
 import { Logo } from './Logo';
-import { categories } from '@/data/categories';
+import { getAllCategories } from '@/lib/data';
 
 export function Footer() {
+  const categories = getAllCategories();
   return (
     <footer className="mt-24 border-t border-rule bg-paper">
       <div className="container-wide py-14">

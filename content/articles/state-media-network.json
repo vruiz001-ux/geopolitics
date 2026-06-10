@@ -1,0 +1,94 @@
+{
+  "slug": "state-media-network",
+  "title": "Inside a network of fake newsrooms operating across three continents",
+  "subtitle": "A six-month investigation has traced more than forty pseudo-local news sites to a single content operation. The model is sophisticated, and it is spreading.",
+  "category": "media",
+  "tags": [
+    "platforms",
+    "china",
+    "africa"
+  ],
+  "publishedAt": "2026-06-03T16:00:00Z",
+  "readingTime": 12,
+  "image": "https://images.unsplash.com/photo-1495020689067-958852a7765e?w=1600&h=900&fit=crop",
+  "imageAlt": "Newspapers piled on a desk",
+  "featured": true,
+  "excerpt": "The sites publish a mix of harmless local-interest pieces and carefully placed narratives that align with a single foreign state. The infrastructure is shared, the editors anonymous, and the reach growing.",
+  "sections": [
+    {
+      "type": "facts",
+      "heading": "The Facts",
+      "content": [
+        "Researchers at three independent organizations have identified forty-three websites operating since 2022 that present as local news outlets in West Africa, the Balkans, and Central Asia.",
+        "Technical analysis links the sites to a single content management infrastructure hosted across three jurisdictions.",
+        "Roughly seventy percent of the content is innocuous local-interest material aggregated from legitimate sources. The remainder is targeted political and geopolitical commentary aligned with a single state actor.",
+        "Combined monthly readership exceeds 18 million unique users, with the largest reach in three African capitals."
+      ]
+    },
+    {
+      "type": "why",
+      "heading": "Why It Matters",
+      "content": [
+        "The model is more sophisticated than the meme-and-troll-farm operations of the previous decade. By burying narrative content inside a high volume of legitimate local journalism, the operation acquires the credibility that algorithmic detection systems use to weight content.",
+        "The sites are also harder to take down. Each one has a plausible local masthead, a real-seeming editorial calendar, and content that does not, on its face, violate platform policies.",
+        "If this model scales, the long-term effect is the gradual displacement of independent local journalism in markets where it is already economically fragile."
+      ]
+    },
+    {
+      "type": "analysis",
+      "heading": "Amara's view",
+      "content": [
+        "I spent four months tracing this network. The most striking thing is the patience of it. The sites built credibility for nearly two years before any narrative content appeared, and the narrative content is still less than a third of the total output.",
+        "This is what the next generation of influence operations looks like. Not bots, not meme farms, but slow infrastructure that mimics the actual structure of local journalism, including hiring real freelancers for the cover content.",
+        "The defense is hard because the sites are not, technically, lying about being newsrooms. They are newsrooms. They publish news. The problem is the editorial layer above them, which is invisible."
+      ]
+    },
+    {
+      "type": "another-view",
+      "heading": "Another view",
+      "content": [
+        "A platform policy executive argued that takedown is the wrong frame, and that the more durable response is investment in independent local journalism in the affected markets.",
+        "A media development organization warned that aggressive labeling of foreign-linked sites risks collateral damage to legitimate diaspora media operations that share infrastructure for unrelated reasons."
+      ]
+    },
+    {
+      "type": "global",
+      "heading": "Global perspective",
+      "content": [
+        "Variants of the model have been documented in Latin America, though at smaller scale and with different state sponsors.",
+        "European regulators are watching closely. The Digital Services Act gives the Commission authority to compel platform transparency about content provenance, but enforcement against this kind of operation is untested.",
+        "Civil society organizations in two of the affected African countries have asked their governments not to respond with broad media restrictions that would also harm domestic press freedom."
+      ]
+    },
+    {
+      "type": "whats-next",
+      "heading": "What's next",
+      "content": [
+        "The full investigation report will be published next week, including the technical infrastructure analysis.",
+        "Two major platforms have been briefed on the findings and have indicated they will take action; the scope and timing remain uncertain.",
+        "Expect copycat operations within a year. The model is replicable, and the cost of entry is low."
+      ]
+    },
+    {
+      "type": "sources",
+      "heading": "Sources & further reading",
+      "content": [],
+      "sources": [
+        {
+          "label": "Stanford Internet Observatory archive",
+          "url": "https://example.com/sio"
+        },
+        {
+          "label": "EU DisinfoLab reports",
+          "url": "https://example.com/disinfolab"
+        }
+      ]
+    }
+  ],
+  "relatedSlugs": [
+    "subscription-fatigue",
+    "opinion-attention-economy",
+    "crypto-stablecoin-rules"
+  ],
+  "authorSlug": "amara-singh"
+}

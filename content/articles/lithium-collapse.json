@@ -1,0 +1,95 @@
+{
+  "slug": "lithium-collapse",
+  "title": "The lithium crash is rewiring the EV supply chain",
+  "subtitle": "Spot prices have fallen 78 percent from the 2023 peak. The pain is concentrated in a handful of mid-tier producers, and the consolidation is just starting.",
+  "category": "climate",
+  "tags": [
+    "climate",
+    "energy",
+    "latam",
+    "markets"
+  ],
+  "publishedAt": "2026-06-04T11:00:00Z",
+  "readingTime": 8,
+  "image": "https://images.unsplash.com/photo-1473773508845-188df298d2d1?w=1600&h=900&fit=crop",
+  "imageAlt": "Aerial view of a lithium brine evaporation pond",
+  "featured": true,
+  "excerpt": "Three Australian producers have suspended operations. Argentinian projects are quietly delayed. The new lithium price is reshaping which battery chemistries dominate the next decade.",
+  "sections": [
+    {
+      "type": "facts",
+      "heading": "The Facts",
+      "content": [
+        "Lithium carbonate spot prices fell to $9,400 per ton last week, down 78 percent from the November 2023 peak.",
+        "Three Australian hard-rock producers have suspended operations citing unviable economics. Two Argentinian brine projects have been delayed by twelve to eighteen months.",
+        "Chinese refiners continue to ramp output, accepting margin compression in exchange for share.",
+        "Battery cell makers are renegotiating long-term contracts, with some demanding floors at $12,000 per ton."
+      ]
+    },
+    {
+      "type": "why",
+      "heading": "Why It Matters",
+      "content": [
+        "The lithium price collapse is forcing a generational consolidation in the upstream supply chain. The mid-tier independents that funded the last cycle's growth are largely uneconomic at current prices.",
+        "The crash is also shifting the competitive landscape between battery chemistries. LFP, which uses less lithium per kWh, gains; high-nickel chemistries lose ground.",
+        "The longer-term concern is that today's low prices are killing the supply investment needed to meet 2030 demand. The cycle is setting up the next shortage."
+      ]
+    },
+    {
+      "type": "analysis",
+      "heading": "Rafael's view",
+      "content": [
+        "I visited two projects in the Salta region last month. The mood has shifted from cautious optimism to triage. Engineering teams are being released. Off-take negotiations have stalled.",
+        "The producers that survive this cycle will be the integrated Chinese refiners and a small number of well-capitalized incumbents. The independent juniors that defined the last cycle are mostly finished.",
+        "The strategic question is whether Western governments respond with floor-price mechanisms or strategic stockpiles. Both are politically difficult. The status quo is the de facto policy, and it is delivering the supply chain to Chinese consolidation."
+      ]
+    },
+    {
+      "type": "another-view",
+      "heading": "Another view",
+      "content": [
+        "A battery materials trader in Shanghai argues the price decline is necessary and overdue, and that the 2023 peak was an anomaly driven by speculative inventory.",
+        "An Australian mining executive countered that current prices reflect Chinese refiners willing to operate below cash cost to drive out competition, and that policy intervention is justified."
+      ]
+    },
+    {
+      "type": "global",
+      "heading": "Global perspective",
+      "content": [
+        "The United States Inflation Reduction Act provisions are partially insulating American producers, but the gap with Chinese costs has widened.",
+        "The European Critical Raw Materials Act offers indicative price support but no committed floor. Industry is lobbying for stronger language in the autumn revision.",
+        "Chile is reconsidering its national lithium strategy, with the state company pushing for a larger operating role to manage the cycle."
+      ]
+    },
+    {
+      "type": "whats-next",
+      "heading": "What's next",
+      "content": [
+        "Watch the next round of long-term contract negotiations, due in the third quarter. The floor price debate will be central.",
+        "A coordinated supply discipline announcement from the four largest producers is possible but unlikely; the structure of the market makes it hard to enforce.",
+        "Battery cell maker guidance in the August earnings cycle will reveal how much of the price decline is passing through to consumers."
+      ]
+    },
+    {
+      "type": "sources",
+      "heading": "Sources & further reading",
+      "content": [],
+      "sources": [
+        {
+          "label": "IEA critical minerals outlook",
+          "url": "https://example.com/iea"
+        },
+        {
+          "label": "Benchmark Mineral Intelligence",
+          "url": "https://example.com/benchmark"
+        }
+      ]
+    }
+  ],
+  "relatedSlugs": [
+    "green-hydrogen-reality-check",
+    "sovereign-wealth-utilities",
+    "industrial-policy-return"
+  ],
+  "authorSlug": "rafael-cordoba"
+}

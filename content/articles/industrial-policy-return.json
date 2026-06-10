@@ -1,0 +1,90 @@
+{
+  "slug": "industrial-policy-return",
+  "title": "Industrial policy is back. The question is whether it works.",
+  "subtitle": "Four major economies have launched programs over the past eighteen months. The early results are uneven, and the political durability of the approach is the central question.",
+  "category": "business",
+  "tags": [
+    "us",
+    "eu",
+    "india",
+    "markets"
+  ],
+  "publishedAt": "2026-05-26T13:00:00Z",
+  "readingTime": 9,
+  "image": "https://images.unsplash.com/photo-1565434019920-5fee5e1d3f99?w=1600&h=900&fit=crop",
+  "imageAlt": "Factory interior with production lines",
+  "excerpt": "The Inflation Reduction Act, the Chips Act, the European equivalents, and India's PLI schemes have moved more than three quarters of a trillion dollars. The economic returns are uneven and the political returns are starting to weaken.",
+  "sections": [
+    {
+      "type": "facts",
+      "heading": "The Facts",
+      "content": [
+        "The four largest industrial policy programs of the past eighteen months have committed over $760 billion in announced support.",
+        "Roughly 60 percent of committed capacity has reached construction stage; the rest has been delayed, downsized, or quietly cancelled.",
+        "Job creation has been concentrated in a narrower set of geographies than the programs anticipated.",
+        "Political support has weakened in two of the four jurisdictions as the gap between announcements and delivery becomes visible."
+      ]
+    },
+    {
+      "type": "why",
+      "heading": "Why It Matters",
+      "content": [
+        "Industrial policy is the dominant economic policy paradigm of the decade. If it works, it reshapes global trade. If it does not, the alternative is a return to a more orthodox framework that the politics no longer support.",
+        "The actual record so far is mixed. Some sectors, particularly batteries and solar, have seen meaningful investment. Others, particularly hydrogen and advanced packaging, have lagged.",
+        "The political question is whether voters reward the policy for the announcements or punish it for the delivery gap."
+      ]
+    },
+    {
+      "type": "analysis",
+      "heading": "Daniel's view",
+      "content": [
+        "The programs that are working have a common feature: they tie subsidies to defined milestones and they are administered by agencies with industrial competence. The programs that are struggling lack one or both.",
+        "The selection bias in early results matters. The first wave of projects to break ground are the ones that were already economic; the harder cases are still in due diligence or already cancelled.",
+        "The political durability question is real. In two jurisdictions, the next election cycle will test whether industrial policy survives a change in government. The early signs are not encouraging."
+      ]
+    },
+    {
+      "type": "another-view",
+      "heading": "Another view",
+      "content": [
+        "An industrial economist argued that judging the programs by eighteen-month delivery is premature and that the structural effects will take five to seven years to assess properly.",
+        "A free-trade-leaning analyst countered that the programs are already producing measurable allocative distortions and that the longer they run, the harder the unwinding becomes."
+      ]
+    },
+    {
+      "type": "global",
+      "heading": "Global perspective",
+      "content": [
+        "US program implementation is materially ahead of the European equivalents, partly because of simpler approval processes.",
+        "India's PLI scheme has delivered electronics assembly investment but lagged on more complex segments.",
+        "China continues to run a parallel and larger industrial policy regime with different design choices."
+      ]
+    },
+    {
+      "type": "whats-next",
+      "heading": "What's next",
+      "content": [
+        "The European Critical Raw Materials Act revision in the autumn will be a major test of political appetite for stronger industrial policy.",
+        "US programs face an election-year test. Even partial repeal would dent investor confidence.",
+        "A coordinated allied framework, long discussed, remains unlikely in the near term."
+      ]
+    },
+    {
+      "type": "sources",
+      "heading": "Sources & further reading",
+      "content": [],
+      "sources": [
+        {
+          "label": "Brookings industrial policy tracker",
+          "url": "https://example.com/brookings"
+        }
+      ]
+    }
+  ],
+  "relatedSlugs": [
+    "chip-export-controls-third-wave",
+    "lithium-collapse",
+    "central-bank-pivot"
+  ],
+  "authorSlug": "daniel-okoro"
+}

@@ -1,9 +1,9 @@
 import Link from 'next/link';
 import type { Article } from '@/lib/types';
-import { getAuthorById, getCategoryBySlug, formatDate } from '@/lib/data';
+import { getAuthorBySlug, getCategoryBySlug, formatDate } from '@/lib/data';
 
 export function HeroStory({ article }: { article: Article }) {
-  const author = getAuthorById(article.authorId);
+  const author = getAuthorBySlug(article.authorSlug);
   const category = getCategoryBySlug(article.category);
   const href = `/article/${article.slug}`;
 

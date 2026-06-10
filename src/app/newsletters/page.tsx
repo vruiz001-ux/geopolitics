@@ -1,15 +1,23 @@
 'use client';
 
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { Check, Mail } from 'lucide-react';
-import { newsletters } from '@/data/newsletters';
 import { NewsletterCard } from '@/components/NewsletterCard';
+import type { Newsletter } from '@/lib/types';
 
 export default function NewslettersPage() {
+  const [newsletters, setNewsletters] = useState<Newsletter[]>([]);
   const [selected, setSelected] = useState<string[]>(['the-daily-brief']);
   const [email, setEmail] = useState('');
   const [error, setError] = useState('');
   const [confirmed, setConfirmed] = useState(false);
+
+  useEffect(() => {
+    fetch('/newsletters.json')
+      .then((r) => r.json())
+      .then((data) => setNewsletters(data))
+      .catch(() => {});
+  }, []);
 
   const toggle = (slug: string) =>
     setSelected((prev) =>
@@ -21,7 +29,7 @@ export default function NewslettersPage() {
       newsletters
         .filter((n) => selected.includes(n.slug))
         .map((n) => n.name),
-    [selected]
+    [selected, newsletters]
   );
 
   const submit = (e: React.FormEvent) => {

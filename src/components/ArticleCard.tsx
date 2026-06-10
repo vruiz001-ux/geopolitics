@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import type { Article } from '@/lib/types';
-import { getAuthorById, getCategoryBySlug, formatRelativeDate } from '@/lib/data';
+import { getAuthorBySlug, getCategoryBySlug, formatRelativeDate } from '@/lib/data';
 
 type Variant = 'hero' | 'large' | 'medium' | 'small' | 'list' | 'compact';
 
@@ -19,7 +19,7 @@ export function ArticleCard({
   showExcerpt,
   showAuthor = true,
 }: Props) {
-  const author = getAuthorById(article.authorId);
+  const author = getAuthorBySlug(article.authorSlug);
   const category = getCategoryBySlug(article.category);
   const href = `/article/${article.slug}`;
 

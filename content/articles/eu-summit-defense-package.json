@@ -1,0 +1,101 @@
+{
+  "slug": "eu-summit-defense-package",
+  "title": "EU leaders agree on a defense package that splits the bloc",
+  "subtitle": "A 240 billion euro plan to underwrite European arms production passed at 3am after a sleepless negotiation in Brussels. Three governments are already trying to walk it back.",
+  "category": "politics",
+  "tags": [
+    "eu",
+    "defense",
+    "elections"
+  ],
+  "publishedAt": "2026-06-06T05:30:00Z",
+  "readingTime": 9,
+  "image": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=1600&h=900&fit=crop",
+  "imageAlt": "EU flags outside the European Council building in Brussels at dawn",
+  "imageCredit": "Unsplash",
+  "featured": true,
+  "hero": true,
+  "excerpt": "The package commits member states to joint procurement and a common arms fund. Hungary, Slovakia, and Ireland want to renegotiate before the September ratification deadline.",
+  "sections": [
+    {
+      "type": "facts",
+      "heading": "The Facts",
+      "content": [
+        "The European Council approved a 240 billion euro defense industrial package at 3:14am on Friday, the largest joint defense commitment in the bloc's history.",
+        "The deal creates a common procurement fund, a shared munitions stockpile, and a fast-track approval mechanism for cross-border arms projects.",
+        "France, Germany, Poland, and the Nordics drove the agreement. Hungary and Slovakia abstained in the final vote, and Ireland appended a neutrality reservation.",
+        "Ratification is required by September 30. Three governments have said they will seek revisions before then."
+      ]
+    },
+    {
+      "type": "why",
+      "heading": "Why It Matters",
+      "content": [
+        "For the first time since the failed European Defence Community in 1954, member states have agreed to pool a meaningful share of defense industrial policy.",
+        "If the package survives ratification, it will redirect a generation of European industrial investment, shift the transatlantic balance, and remake several mid-cap defense firms into European champions.",
+        "If it does not, the political damage to the bloc's credibility on hard security would be severe, and the gap between commitments and capability will widen further."
+      ]
+    },
+    {
+      "type": "analysis",
+      "heading": "Iris's view",
+      "content": [
+        "The interesting thing is not the headline number. It is the procurement fund. By committing roughly a third of the spend to joint orders, the bloc has built a mechanism that will, over time, force consolidation across nine national defense industrial bases.",
+        "That consolidation is the point. Officials I spoke with in the small hours admit the package is partly a vehicle to do what no European government has been willing to do alone, which is shut down redundant production lines.",
+        "The political fragility is real. But the structural pressure created by the fund will outlast the current set of governments. Once ministries write joint contracts, unwinding them becomes very expensive."
+      ]
+    },
+    {
+      "type": "another-view",
+      "heading": "Another view",
+      "content": [
+        "A senior official in Budapest told us the package is a \"fait accompli dressed as consensus\" and warned that Hungary will use every procedural lever available to delay ratification.",
+        "Defense industrialists in two member states say the procurement fund will, in practice, channel orders to a small set of incumbents and squeeze out mid-cap suppliers, the opposite of the consolidation officials describe.",
+        "A former NATO planner argued the package leaves the alliance's core problem untouched: the shortage of trained personnel, which no amount of industrial spending will solve in this decade."
+      ]
+    },
+    {
+      "type": "global",
+      "heading": "Global perspective",
+      "content": [
+        "Washington has signaled cautious support. Officials say a credible European defense industrial base reduces the burden on the United States but worry about specific procurement rules that could exclude American suppliers.",
+        "Moscow described the package in state media as evidence of European aggression. In private, analysts note Russian defense planners are taking it seriously.",
+        "Beijing has been quiet. Chinese industrial planners are watching the joint procurement mechanism closely as a possible model for state-coordinated capacity expansion in other sectors."
+      ]
+    },
+    {
+      "type": "whats-next",
+      "heading": "What's next",
+      "content": [
+        "Ratification deadlines fall in three waves between July and September. Watch the Czech and Italian votes in late July, both currently expected to pass narrowly.",
+        "The first joint procurement contracts under the fund are scheduled for the fourth quarter. The artillery shell and air defense missile lines will be the early tests.",
+        "Expect a renewed political fight in the autumn over whether non-EU NATO members, particularly the United Kingdom and Norway, can participate in funded projects."
+      ]
+    },
+    {
+      "type": "sources",
+      "heading": "Sources & further reading",
+      "content": [],
+      "sources": [
+        {
+          "label": "European Council conclusions, June meeting",
+          "url": "https://example.com/eucouncil"
+        },
+        {
+          "label": "EDA industrial base report, 2026",
+          "url": "https://example.com/eda-report"
+        },
+        {
+          "label": "CSIS analysis: European defense consolidation",
+          "url": "https://example.com/csis"
+        }
+      ]
+    }
+  ],
+  "relatedSlugs": [
+    "chip-export-controls-third-wave",
+    "eastern-europe-election-result",
+    "turkey-pivot"
+  ],
+  "authorSlug": "iris-marchand"
+}

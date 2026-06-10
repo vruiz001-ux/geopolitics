@@ -1,0 +1,89 @@
+{
+  "slug": "subscription-fatigue",
+  "title": "The end of subscription growth",
+  "subtitle": "The major streamers reported their first joint quarter of subscriber decline in mature markets. The growth strategy is officially over.",
+  "category": "media",
+  "tags": [
+    "platforms",
+    "us",
+    "markets"
+  ],
+  "publishedAt": "2026-05-28T11:00:00Z",
+  "readingTime": 6,
+  "image": "https://images.unsplash.com/photo-1611162616475-46b635cb6868?w=1600&h=900&fit=crop",
+  "imageAlt": "A remote control pointing at a television",
+  "excerpt": "For a decade the question was how fast subscriber bases could grow. The new question is how much margin can be extracted from a flat base. The strategic implications are larger than they look.",
+  "sections": [
+    {
+      "type": "facts",
+      "heading": "The Facts",
+      "content": [
+        "The five largest US streaming services reported a combined net subscriber decline in mature markets for the quarter ending March.",
+        "It was the first joint quarter of decline since the launch of the post-Netflix streaming wars.",
+        "Average revenue per user is up materially, driven by price increases and the migration to ad-supported tiers.",
+        "Churn rates rose between 80 and 140 basis points across the major services."
+      ]
+    },
+    {
+      "type": "why",
+      "heading": "Why It Matters",
+      "content": [
+        "The subscription growth story underwrote a decade of content spending and capital availability for the streamers. Its end means a structural shift in how content is funded.",
+        "The financial model for premium scripted television, in particular, depended on subscription growth absorbing per-show economics. With growth gone, the show count will fall.",
+        "For talent, the implications are uneven. Top-tier writers and showrunners will be fine. Mid-tier development is already contracting."
+      ]
+    },
+    {
+      "type": "analysis",
+      "heading": "Amara's view",
+      "content": [
+        "The decline in mature markets is structural, not cyclical. Penetration is at the ceiling, and the marginal subscriber is gone.",
+        "The growth that remains is in price, ad load, and bundles. All three are unpopular with consumers, and all three accelerate churn at the margin.",
+        "The interesting strategic question is whether any of the streamers attempt to differentiate through prestige content rather than competing on volume. The economics now favor it, but the corporate cultures do not."
+      ]
+    },
+    {
+      "type": "another-view",
+      "heading": "Another view",
+      "content": [
+        "A streaming executive argued the decline is a one-quarter anomaly driven by household consolidation as bundles tighten.",
+        "An analyst at a major investment bank countered that the underlying penetration data is unambiguous and that the market is simply mature."
+      ]
+    },
+    {
+      "type": "global",
+      "heading": "Global perspective",
+      "content": [
+        "Emerging markets remain the growth pocket, but ARPU is structurally lower and content costs are not.",
+        "European public broadcasters are gaining share, partially reversing a decade of decline.",
+        "In Asia, regional streamers and aggregator bundles are eating into the global services' share."
+      ]
+    },
+    {
+      "type": "whats-next",
+      "heading": "What's next",
+      "content": [
+        "Watch the major streamers' second-quarter content commitment announcements, due in late July.",
+        "Bundling activity will intensify in the autumn, particularly cross-service bundles that share churn risk.",
+        "Expect consolidation. A merger between two mid-tier services within twelve months is plausible."
+      ]
+    },
+    {
+      "type": "sources",
+      "heading": "Sources & further reading",
+      "content": [],
+      "sources": [
+        {
+          "label": "Ampere Analysis quarterly",
+          "url": "https://example.com/ampere"
+        }
+      ]
+    }
+  ],
+  "relatedSlugs": [
+    "platform-news-deal-collapse",
+    "state-media-network",
+    "opinion-attention-economy"
+  ],
+  "authorSlug": "amara-singh"
+}

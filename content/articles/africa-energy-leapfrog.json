@@ -1,0 +1,93 @@
+{
+  "slug": "africa-energy-leapfrog",
+  "title": "The African energy leapfrog is real, and it does not look like the textbooks predicted",
+  "subtitle": "Distributed solar plus storage has reached cost parity with grid extension in most of sub-Saharan Africa. The financing models, not the technology, are the constraint.",
+  "category": "climate",
+  "tags": [
+    "africa",
+    "energy",
+    "climate"
+  ],
+  "publishedAt": "2026-05-19T09:00:00Z",
+  "readingTime": 8,
+  "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=1600&h=900&fit=crop",
+  "imageAlt": "Solar panels in a rural landscape",
+  "excerpt": "The energy transition in Africa is happening at the meter, not the megawatt. The numbers are bigger than the headline grid-extension narratives capture, and the implications for industrial policy are larger.",
+  "sections": [
+    {
+      "type": "facts",
+      "heading": "The Facts",
+      "content": [
+        "Distributed solar plus storage now serves an estimated 240 million people across sub-Saharan Africa, up from roughly 90 million five years ago.",
+        "Pay-as-you-go financing has scaled with mobile money infrastructure, with default rates running below 4 percent in mature markets.",
+        "Grid extension projects continue at roughly the same pace as a decade ago, but their relative share of new energy access is falling rapidly.",
+        "Component manufacturing in two African economies has reached meaningful scale, with the rest still imported."
+      ]
+    },
+    {
+      "type": "why",
+      "heading": "Why It Matters",
+      "content": [
+        "The shape of African energy development is not the centralized-grid model that bilateral and multilateral lenders financed for a generation. The distributed model is faster, cheaper, and more politically resilient.",
+        "For climate, the distributed model leapfrogs the carbon-intensive grid that other developing regions built.",
+        "The implications for industrial policy are large. The countries that build component manufacturing alongside the deployment capture much more of the value chain."
+      ]
+    },
+    {
+      "type": "analysis",
+      "heading": "Rafael's view",
+      "content": [
+        "I spent six weeks across three countries reporting this story. The numbers do not capture how comprehensively the model has changed expectations on the ground.",
+        "The constraint is financing, specifically the cost of capital for deployment companies. Tariff and import policy in two large markets remains punitive.",
+        "The countries that get the policy right over the next five years will be the ones that capture component manufacturing. The window is open but not for long."
+      ]
+    },
+    {
+      "type": "another-view",
+      "heading": "Another view",
+      "content": [
+        "An African utility CEO argued the distributed model serves households well but cannot replace the grid for industrial demand, and that grid investment remains essential.",
+        "A development finance specialist countered that grid extension has chronically underdelivered against committed financing and that the distributed model is, in practice, the actual energy access strategy."
+      ]
+    },
+    {
+      "type": "global",
+      "heading": "Global perspective",
+      "content": [
+        "Chinese component manufacturers dominate the supply chain, which raises political questions in some markets.",
+        "European development finance is increasingly oriented around the distributed model, partly catching up to its scale.",
+        "India is studying African deployment patterns as it scales its own distributed solar programs."
+      ]
+    },
+    {
+      "type": "whats-next",
+      "heading": "What's next",
+      "content": [
+        "A major multilateral facility focused on local component manufacturing is in development.",
+        "Tariff policy in two large markets is under review.",
+        "The next wave of growth is in commercial and industrial customers, which require different financing structures."
+      ]
+    },
+    {
+      "type": "sources",
+      "heading": "Sources & further reading",
+      "content": [],
+      "sources": [
+        {
+          "label": "GOGLA market data",
+          "url": "https://example.com/gogla"
+        },
+        {
+          "label": "IEA Africa Energy Outlook",
+          "url": "https://example.com/iea-africa"
+        }
+      ]
+    }
+  ],
+  "relatedSlugs": [
+    "green-hydrogen-reality-check",
+    "lithium-collapse",
+    "industrial-policy-return"
+  ],
+  "authorSlug": "rafael-cordoba"
+}

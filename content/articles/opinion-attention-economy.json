@@ -1,0 +1,88 @@
+{
+  "slug": "opinion-attention-economy",
+  "title": "Opinion: The attention economy has reached its endpoint",
+  "subtitle": "A decade of platform optimization has compressed news consumption into a format that cannot sustain reported journalism. The fix has to be structural.",
+  "category": "media",
+  "tags": [
+    "platforms",
+    "us"
+  ],
+  "publishedAt": "2026-05-24T10:00:00Z",
+  "readingTime": 6,
+  "image": "https://images.unsplash.com/photo-1542435503-956c469947f6?w=1600&h=900&fit=crop",
+  "imageAlt": "Pen on top of a printed newspaper",
+  "excerpt": "You can build a credible business around two-minute reads. You cannot build the reported journalism that fills them.",
+  "sections": [
+    {
+      "type": "facts",
+      "heading": "The Facts",
+      "content": [
+        "Average time spent on a news article on mobile is 47 seconds, down from 78 seconds five years ago.",
+        "Scroll depth on news content has fallen to 41 percent of article length on the median piece.",
+        "Subscription conversion rates are concentrated in a narrowing set of high-investment formats: longform, explainers, and audio.",
+        "The economics of reported daily journalism, which sits between those formats, have deteriorated steadily."
+      ]
+    },
+    {
+      "type": "why",
+      "heading": "Why It Matters",
+      "content": [
+        "The attention compression matters not because readers should read more, but because the reporting that produces the inputs to news consumption requires a different cost structure than the consumption surface can support.",
+        "The result is a structural mismatch: the formats that drive subscription do not require the volume of reporting that the news organization needs to maintain.",
+        "Solving the mismatch requires either subsidy, consolidation, or a different relationship between newsrooms and the formats they produce."
+      ]
+    },
+    {
+      "type": "analysis",
+      "heading": "Amara's view",
+      "content": [
+        "The structural fix is reporting capacity owned in common, with the consumer-facing formats built on top of that capacity by separate teams.",
+        "This is, ironically, the structure that the wire services and the largest newspapers built in the twentieth century. We are not inventing a new model; we are rediscovering it under pressure.",
+        "The political economy is hard. The funders of a shared reporting layer have to accept slower returns and more diffuse credit than the current model offers."
+      ]
+    },
+    {
+      "type": "another-view",
+      "heading": "Another view",
+      "content": [
+        "A media executive argued the current model is delivering more journalism, not less, and that the attention compression is a feature for younger audiences.",
+        "A platform researcher countered that the data on attention compression is partial and that aggregate news consumption, including audio and video, is up."
+      ]
+    },
+    {
+      "type": "global",
+      "heading": "Global perspective",
+      "content": [
+        "European public broadcasters have absorbed some of the shared-capacity role, but their funding models are politically fragile.",
+        "Nonprofit reporting in the United States has expanded but cannot fill the gap left by commercial newsrooms.",
+        "In smaller markets, the shared-capacity layer has effectively collapsed already."
+      ]
+    },
+    {
+      "type": "whats-next",
+      "heading": "What's next",
+      "content": [
+        "Watch for cross-newsroom reporting consortia launching in the autumn.",
+        "Philanthropic funding for shared infrastructure is being reorganized.",
+        "A structural conversation about wire service economics is overdue."
+      ]
+    },
+    {
+      "type": "sources",
+      "heading": "Sources & further reading",
+      "content": [],
+      "sources": [
+        {
+          "label": "Reuters Institute Digital News Report",
+          "url": "https://example.com/rdi"
+        }
+      ]
+    }
+  ],
+  "relatedSlugs": [
+    "platform-news-deal-collapse",
+    "subscription-fatigue",
+    "state-media-network"
+  ],
+  "authorSlug": "amara-singh"
+}

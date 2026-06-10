@@ -1,10 +1,12 @@
 'use client';
 
-import { Suspense, useState } from 'react';
+import { Suspense, useEffect, useState } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
 import { Search as SearchIcon } from 'lucide-react';
-import { searchArticles, getAuthorById, getCategoryBySlug } from '@/lib/data';
-import { ArticleCard } from '@/components/ArticleCard';
+import {
+  filterArticles,
+  type ArticleSearchLite,
+} from '@/lib/search-types';
 
 function highlight(text: string, query: string) {
   if (!query) return text;
@@ -25,7 +27,20 @@ function SearchInner() {
   const router = useRouter();
   const initial = params.get('q') ?? '';
   const [query, setQuery] = useState(initial);
-  const results = searchArticles(query);
+  const [index, setIndex] = useState<ArticleSearchLite[]>([]);
+  const [loaded, setLoaded] = useState(false);
+
+  useEffect(() => {
+    fetch('/search-index.json')
+      .then((r) => r.json())
+      .then((data) => {
+        setIndex(data);
+        setLoaded(true);
+      })
+      .catch(() => setLoaded(true));
+  }, []);
+
+  const results = filterArticles(index, query);
 
   const submit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -62,7 +77,9 @@ function SearchInner() {
         </div>
       </form>
 
-      {query.length === 0 ? (
+      {!loaded ? (
+        <p className="font-serif text-muted">Loading index…</p>
+      ) : query.length === 0 ? (
         <div className="rounded-lg border border-dashed border-rule px-6 py-16 text-center">
           <p className="font-serif text-lg text-muted">
             Type a query above. Try a topic, a country, an author, or a category.
@@ -83,46 +100,42 @@ function SearchInner() {
             {results.length} {results.length === 1 ? 'result' : 'results'} for &ldquo;{query}&rdquo;
           </p>
           <ul className="divide-y divide-rule">
-            {results.map((article) => {
-              const author = getAuthorById(article.authorId);
-              const category = getCategoryBySlug(article.category);
-              return (
-                <li key={article.id} className="py-6">
-                  <div className="grid grid-cols-1 gap-4 sm:grid-cols-4">
+            {results.map((article) => (
+              <li key={article.slug} className="py-6">
+                <div className="grid grid-cols-1 gap-4 sm:grid-cols-4">
+                  <a
+                    href={`/article/${article.slug}`}
+                    className="relative aspect-[16/10] w-full overflow-hidden rounded-md bg-rule sm:col-span-1"
+                  >
+                    <img
+                      src={article.image}
+                      alt={article.imageAlt}
+                      className="absolute inset-0 h-full w-full object-cover"
+                      loading="lazy"
+                    />
+                  </a>
+                  <div className="sm:col-span-3">
                     <a
-                      href={`/article/${article.slug}`}
-                      className="relative aspect-[16/10] w-full overflow-hidden rounded-md bg-rule sm:col-span-1"
+                      href={`/category/${article.category}`}
+                      className="eyebrow text-accent link-hover"
                     >
-                      <img
-                        src={article.image}
-                        alt={article.imageAlt}
-                        className="absolute inset-0 h-full w-full object-cover"
-                        loading="lazy"
-                      />
+                      {article.categoryName}
                     </a>
-                    <div className="sm:col-span-3">
-                      <a
-                        href={`/category/${article.category}`}
-                        className="eyebrow text-accent link-hover"
-                      >
-                        {category?.name}
+                    <h2 className="mt-1 font-serif text-xl font-semibold leading-snug text-ink">
+                      <a href={`/article/${article.slug}`} className="link-hover">
+                        {highlight(article.title, query)}
                       </a>
-                      <h2 className="mt-1 font-serif text-xl font-semibold leading-snug text-ink">
-                        <a href={`/article/${article.slug}`} className="link-hover">
-                          {highlight(article.title, query)}
-                        </a>
-                      </h2>
-                      <p className="mt-2 font-serif text-base leading-relaxed text-graphite">
-                        {highlight(article.subtitle, query)}
-                      </p>
-                      <p className="mt-2 font-sans text-xs text-muted">
-                        {author?.name} · {article.readingTime} min read
-                      </p>
-                    </div>
+                    </h2>
+                    <p className="mt-2 font-serif text-base leading-relaxed text-graphite">
+                      {highlight(article.subtitle, query)}
+                    </p>
+                    <p className="mt-2 font-sans text-xs text-muted">
+                      {article.authorName} · {article.readingTime} min read
+                    </p>
                   </div>
-                </li>
-              );
-            })}
+                </div>
+              </li>
+            ))}
           </ul>
         </>
       )}

@@ -1,0 +1,89 @@
+{
+  "slug": "platform-news-deal-collapse",
+  "title": "The platform-publisher news deal that defined a decade is collapsing",
+  "subtitle": "Three of the major platforms have signaled they will not renew their content licensing agreements with publishers. The revenue cliff is real, and it lands by the end of the year.",
+  "category": "media",
+  "tags": [
+    "platforms",
+    "us",
+    "eu"
+  ],
+  "publishedAt": "2026-05-31T15:00:00Z",
+  "readingTime": 9,
+  "image": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=1600&h=900&fit=crop",
+  "imageAlt": "A hand scrolling through news on a phone",
+  "excerpt": "For most large publishers, platform deals are between five and eighteen percent of digital revenue. The expiration calendars are now visible on the horizon, and there is no replacement.",
+  "sections": [
+    {
+      "type": "facts",
+      "heading": "The Facts",
+      "content": [
+        "Three major platforms have indicated to publishers that current content licensing agreements will not be renewed when they expire between September and February.",
+        "A fourth platform has signaled it will renew on materially less favorable terms.",
+        "For large publishers, these deals represent between 5 and 18 percent of digital revenue.",
+        "A handful of jurisdictions (Australia, France, Canada) have legislative frameworks that mandate negotiation; the platforms are testing whether those frameworks survive a withdrawal."
+      ]
+    },
+    {
+      "type": "why",
+      "heading": "Why It Matters",
+      "content": [
+        "For publishers, the loss of platform revenue is the third major hit to the business model in a decade, after the collapse of print classifieds and the rise of programmatic ads.",
+        "For platforms, the calculation is that AI summaries reduce their need for high-quality content licensing, and that the legislative frameworks compelling them to pay can be either repealed or routed around.",
+        "For readers, the effect is a structural reduction in the supply of reported journalism, particularly in the markets where the platforms are dropping out."
+      ]
+    },
+    {
+      "type": "analysis",
+      "heading": "Amara's view",
+      "content": [
+        "The platforms are doing this now because they think they can. The political environment for forcing them to pay has weakened in two of the four major jurisdictions, and AI gives them a credible-sounding substitute for the licensed content.",
+        "For publishers, the response cannot be defensive. The platforms will not be brought back. The viable strategy is to harden direct relationships with readers and to invest in the formats, like longform and audio, that the platforms cannot substitute for.",
+        "The places where it gets ugly are the smaller and mid-tier publishers who do not have the brand to convert direct, and who built their business around the platform revenue."
+      ]
+    },
+    {
+      "type": "another-view",
+      "heading": "Another view",
+      "content": [
+        "A platform executive argued the licensing deals never made economic sense for either side and that publishers benefit more from organic platform traffic than from licensing payments.",
+        "A media analyst countered that the loss of licensing revenue will accelerate consolidation, with the surviving publishers being the ones already most dependent on subscription revenue."
+      ]
+    },
+    {
+      "type": "global",
+      "heading": "Global perspective",
+      "content": [
+        "Australia's news media bargaining code is the central test case. If the platforms successfully withdraw without paying, the model is dead globally.",
+        "The EU is watching closely and may pursue a regulatory response under existing competition law, though the timeline is long.",
+        "Smaller markets without legislative frameworks are seeing the steepest declines in platform-driven traffic already."
+      ]
+    },
+    {
+      "type": "whats-next",
+      "heading": "What's next",
+      "content": [
+        "The first major contract expiration is in September. Watch for last-minute legislative pressure in two affected jurisdictions.",
+        "Publisher M&A activity in the autumn will signal how the industry is repositioning.",
+        "A coordinated publisher response, modeled on previous antitrust complaints, is being discussed but faces collective action problems."
+      ]
+    },
+    {
+      "type": "sources",
+      "heading": "Sources & further reading",
+      "content": [],
+      "sources": [
+        {
+          "label": "Reuters Institute Digital News Report",
+          "url": "https://example.com/rdi"
+        }
+      ]
+    }
+  ],
+  "relatedSlugs": [
+    "state-media-network",
+    "opinion-attention-economy",
+    "crypto-stablecoin-rules"
+  ],
+  "authorSlug": "amara-singh"
+}

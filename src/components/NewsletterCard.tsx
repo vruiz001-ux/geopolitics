@@ -1,7 +1,6 @@
 'use client';
 
 import type { Newsletter } from '@/lib/types';
-import { getAuthorById } from '@/lib/data';
 import { Check } from 'lucide-react';
 
 interface Props {
@@ -11,7 +10,6 @@ interface Props {
 }
 
 export function NewsletterCard({ newsletter, selected, onToggle }: Props) {
-  const author = getAuthorById(newsletter.authorId);
   const id = `newsletter-${newsletter.slug}`;
   return (
     <label
@@ -54,7 +52,9 @@ export function NewsletterCard({ newsletter, selected, onToggle }: Props) {
       </p>
       <div className="mt-5 border-t border-rule pt-4">
         <p className="font-sans text-xs text-muted">
-          Written by <span className="text-ink">{author?.name}</span> · {newsletter.subscribers} subscribers
+          Written by <span className="text-ink">{newsletter.authorName ?? 'Staff'}</span>
+          {' · '}
+          {newsletter.subscribers} subscribers
         </p>
         <p className="mt-2 font-serif text-sm italic text-muted">
           &ldquo;{newsletter.preview}&rdquo;

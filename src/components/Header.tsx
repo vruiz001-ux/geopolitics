@@ -6,9 +6,9 @@ import { Menu, Search, X, Mail } from 'lucide-react';
 import { Logo } from './Logo';
 import { CategoryNav } from './CategoryNav';
 import { SearchOverlay } from './SearchOverlay';
-import { categories } from '@/data/categories';
+import type { Category } from '@/lib/types';
 
-export function Header() {
+export function Header({ categories }: { categories: Category[] }) {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
@@ -80,7 +80,7 @@ export function Header() {
               <Logo size={scrolled ? 'sm' : 'md'} />
             </div>
             <nav aria-label="Primary" className="hidden flex-1 justify-center lg:flex">
-              <CategoryNav />
+              <CategoryNav categories={categories} />
             </nav>
             <div className="flex items-center gap-1">
               <button

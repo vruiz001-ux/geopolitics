@@ -1,0 +1,88 @@
+{
+  "slug": "eastern-europe-election-result",
+  "title": "A contested election in Eastern Europe ends with two governments claiming victory",
+  "subtitle": "The ruling party and the opposition coalition both announced wins before the official count was complete. The constitutional court will decide.",
+  "category": "politics",
+  "tags": [
+    "elections",
+    "eu"
+  ],
+  "publishedAt": "2026-06-02T22:00:00Z",
+  "readingTime": 6,
+  "image": "https://images.unsplash.com/photo-1495546968767-f0573cca821e?w=1600&h=900&fit=crop",
+  "imageAlt": "Voters lining up outside a polling station",
+  "excerpt": "Exit polls put the opposition coalition ahead by three points. The state election commission, controlled by ruling party appointees, has not yet certified results.",
+  "sections": [
+    {
+      "type": "facts",
+      "heading": "The Facts",
+      "content": [
+        "Polls closed at 9pm Sunday in a parliamentary election widely seen as a test of democratic backsliding.",
+        "Exit polls from three independent organizations showed the opposition coalition winning by between two and four percentage points.",
+        "The ruling party declared victory at 10:14pm; the opposition coalition declared victory at 11:02pm.",
+        "The state election commission has not certified results. International observers have flagged procedural concerns at roughly twelve percent of polling stations."
+      ]
+    },
+    {
+      "type": "why",
+      "heading": "Why It Matters",
+      "content": [
+        "The outcome will determine whether the country's judicial reforms, frozen for two years under EU pressure, are reversed or accelerated.",
+        "A contested transition would test the constitutional court, itself the subject of three years of partisan restructuring.",
+        "The result also bears on the country's position in the EU defense package, where the current government has been a holdout."
+      ]
+    },
+    {
+      "type": "analysis",
+      "heading": "Iris's view",
+      "content": [
+        "The most important number is not the headline margin but the variance between regions. The opposition's lead is concentrated in cities; the ruling party held rural districts more strongly than polls suggested.",
+        "That pattern matters because the constitutional court has, in past disputes, weighted procedural challenges from rural districts more heavily.",
+        "A clean transition is still the most likely outcome. But the path to it runs through institutions that have been weakened by the last decade of pressure."
+      ]
+    },
+    {
+      "type": "another-view",
+      "heading": "Another view",
+      "content": [
+        "A ruling party official insisted the exit polls oversample urban voters and that the ground-truth result will favor the government once rural mail-in ballots are counted.",
+        "A constitutional law professor warned that even a clean opposition victory will face a court that may invalidate the result on procedural grounds."
+      ]
+    },
+    {
+      "type": "global",
+      "heading": "Global perspective",
+      "content": [
+        "Brussels has signaled it will recognize the opposition coalition's declaration if the election commission delays beyond seventy-two hours.",
+        "Washington has been quieter. Officials describe the situation as primarily a European matter.",
+        "Russian and Chinese state media have amplified the ruling party's narrative."
+      ]
+    },
+    {
+      "type": "whats-next",
+      "heading": "What's next",
+      "content": [
+        "The election commission has a 72-hour window before procedural concerns escalate. Watch the Tuesday certification deadline.",
+        "A constitutional court ruling is expected within ten days if the result is challenged.",
+        "Street mobilization is possible. Both sides have called for \"vigilance\" near the parliament building."
+      ]
+    },
+    {
+      "type": "sources",
+      "heading": "Sources & further reading",
+      "content": [],
+      "sources": [
+        {
+          "label": "OSCE/ODIHR observation report",
+          "url": "https://example.com/osce"
+        }
+      ]
+    }
+  ],
+  "relatedSlugs": [
+    "eu-summit-defense-package",
+    "turkey-pivot",
+    "india-china-border"
+  ],
+  "authorSlug": "iris-marchand"
+}

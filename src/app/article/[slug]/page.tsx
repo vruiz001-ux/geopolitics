@@ -3,13 +3,14 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import {
   getArticleBySlug,
-  getAuthorById,
+  getAuthorBySlug,
   getCategoryBySlug,
   getRelatedArticles,
   getTagName,
   formatDate,
   getAllArticles,
 } from '@/lib/data';
+import { SITE_URL } from '@/lib/site';
 import { AuthorCard } from '@/components/AuthorCard';
 import { ShareButtons } from '@/components/ShareButtons';
 import { TableOfContents } from '@/components/TableOfContents';
@@ -29,7 +30,7 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: Props): Metadata {
   const article = getArticleBySlug(params.slug);
   if (!article) return { title: 'Not found' };
-  const author = getAuthorById(article.authorId);
+  const author = getAuthorBySlug(article.authorSlug);
   return {
     title: article.title,
     description: article.excerpt,
@@ -55,14 +56,14 @@ export default function ArticlePage({ params }: Props) {
   const article = getArticleBySlug(params.slug);
   if (!article) return notFound();
 
-  const author = getAuthorById(article.authorId);
+  const author = getAuthorBySlug(article.authorSlug);
   const category = getCategoryBySlug(article.category);
   const related = getRelatedArticles(article);
   const sectionsWithIds = article.sections.map((section, i) => ({
     id: `section-${section.type}-${i}`,
     section,
   }));
-  const articleUrl = `https://geopolitics.example/article/${article.slug}`;
+  const articleUrl = `${SITE_URL}/article/${article.slug}`;
 
   return (
     <article className="container-wide py-8 lg:py-12">
@@ -174,7 +175,7 @@ export default function ArticlePage({ params }: Props) {
               <p className="eyebrow mb-3 text-muted">More from this section</p>
               <ul className="space-y-4">
                 {related.slice(0, 3).map((a) => (
-                  <li key={a.id}>
+                  <li key={a.slug}>
                     <Link href={`/article/${a.slug}`} className="block group">
                       <p className="eyebrow text-accent">{category?.name}</p>
                       <p className="mt-1 font-serif text-sm font-semibold leading-snug text-ink group-hover:text-accent">

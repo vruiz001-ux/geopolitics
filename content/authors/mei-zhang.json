@@ -1,0 +1,19 @@
+{
+  "slug": "mei-zhang",
+  "name": "Mei Zhang",
+  "role": "Technology Correspondent",
+  "bio": "Mei reports on the chip industry, AI policy, and the contest between the United States and China over compute. She holds a degree in computer science and previously worked as an engineer at a major foundry.",
+  "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop",
+  "location": "Taipei",
+  "social": {
+    "twitter": "@meizhang",
+    "linkedin": "meizhang",
+    "email": "mei@geopolitics.example"
+  },
+  "expertise": [
+    "Semiconductors",
+    "AI Policy",
+    "East Asia",
+    "Industrial Policy"
+  ]
+}

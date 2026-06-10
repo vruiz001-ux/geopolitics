@@ -1,0 +1,89 @@
+{
+  "slug": "turkey-pivot",
+  "title": "Ankara's quiet pivot is reshaping the eastern Mediterranean",
+  "subtitle": "A series of small announcements over the past quarter point to a more pragmatic Turkish foreign policy. The strategic implications are large.",
+  "category": "world",
+  "tags": [
+    "middle-east",
+    "eu",
+    "defense"
+  ],
+  "publishedAt": "2026-05-30T07:00:00Z",
+  "readingTime": 8,
+  "image": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=1600&h=900&fit=crop",
+  "imageAlt": "The Bosphorus strait at dawn",
+  "excerpt": "Maritime delimitation talks have resumed with Greece. A new gas exploration agreement with Egypt is in the final stages. The pivot is real, and Brussels has noticed.",
+  "sections": [
+    {
+      "type": "facts",
+      "heading": "The Facts",
+      "content": [
+        "Turkey and Greece resumed maritime delimitation talks in March, the first formal engagement at this level in over a decade.",
+        "A bilateral gas exploration agreement with Egypt has cleared technical drafting and awaits political sign-off in both capitals.",
+        "Turkish defense industrial cooperation with two Gulf states has expanded materially, with three new contracts disclosed in the past quarter.",
+        "EU-Turkey customs union modernization talks, dormant since 2018, are scheduled to resume in July."
+      ]
+    },
+    {
+      "type": "why",
+      "heading": "Why It Matters",
+      "content": [
+        "The eastern Mediterranean has been a chronic source of friction for fifteen years. A durable Turkish pivot toward pragmatic engagement reduces a meaningful tail risk for European security.",
+        "Turkey's defense industrial relationships are reshaping arms markets in the Gulf and parts of Africa, with second-order effects on legacy Western suppliers.",
+        "The EU customs union modernization, if it happens, is the most significant deepening of EU-Turkey economic ties in a generation."
+      ]
+    },
+    {
+      "type": "analysis",
+      "heading": "Iris's view",
+      "content": [
+        "The Turkish pivot is real but conditional. It depends on a set of domestic economic pressures that are unlikely to abate in the near term.",
+        "The question for Europe is whether to embed the pivot in institutional commitments while the window is open. The customs union modernization is the natural vehicle.",
+        "The risk is that the EU treats the pivot as a permanent shift and over-invests in commitments that a future Turkish government might walk back. The pragmatic course is to lock in the gains incrementally."
+      ]
+    },
+    {
+      "type": "another-view",
+      "heading": "Another view",
+      "content": [
+        "A Greek diplomat argued the maritime talks are progressing but that the underlying issues remain unresolved and the talks could break down at any time.",
+        "A Turkish defense analyst pushed back on the framing of a pivot, arguing that Turkish foreign policy has been consistently transactional and that the recent moves are simply better-marketed."
+      ]
+    },
+    {
+      "type": "global",
+      "heading": "Global perspective",
+      "content": [
+        "Washington has welcomed the pivot but is cautious about over-investing given the volatility of US-Turkey relations over the past decade.",
+        "Russia is watching the shift carefully, particularly the cooperation with Egypt, which complicates Moscow's eastern Mediterranean posture.",
+        "Gulf capitals are leveraging the moment to deepen defense ties at favorable commercial terms."
+      ]
+    },
+    {
+      "type": "whats-next",
+      "heading": "What's next",
+      "content": [
+        "EU customs union talks open in July. The Cyprus question will be the central friction point.",
+        "Egypt gas agreement expected in the autumn. Implementation will reveal whether the pivot is durable or cosmetic.",
+        "Turkish elections in 2028 are the structural risk. Watch domestic political signaling for early indications."
+      ]
+    },
+    {
+      "type": "sources",
+      "heading": "Sources & further reading",
+      "content": [],
+      "sources": [
+        {
+          "label": "European External Action Service briefings",
+          "url": "https://example.com/eeas"
+        }
+      ]
+    }
+  ],
+  "relatedSlugs": [
+    "eu-summit-defense-package",
+    "eastern-europe-election-result",
+    "india-china-border"
+  ],
+  "authorSlug": "iris-marchand"
+}

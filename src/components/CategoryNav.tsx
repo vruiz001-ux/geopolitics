@@ -2,9 +2,14 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { categories } from '@/data/categories';
+import type { Category } from '@/lib/types';
 
-export function CategoryNav({ variant = 'default' }: { variant?: 'default' | 'compact' }) {
+interface Props {
+  categories: Category[];
+  variant?: 'default' | 'compact';
+}
+
+export function CategoryNav({ categories, variant = 'default' }: Props) {
   const pathname = usePathname();
   return (
     <nav aria-label="Categories" className="w-full">

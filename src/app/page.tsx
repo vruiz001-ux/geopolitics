@@ -13,9 +13,9 @@ import { NewsletterCTA } from '@/components/NewsletterCTA';
 
 export default function HomePage() {
   const hero = getHeroArticle();
-  const featured = getFeaturedArticles().filter((a) => a.id !== hero?.id);
+  const featured = getFeaturedArticles().filter((a) => a.slug !== hero?.slug);
   const all = getAllArticles();
-  const latest = all.filter((a) => a.id !== hero?.id).slice(0, 6);
+  const latest = all.filter((a) => a.slug !== hero?.slug).slice(0, 6);
   const categories = getAllCategories();
   const secondaryFeatured = featured.slice(0, 2);
   const tertiaryFeatured = featured.slice(2, 4);
@@ -45,13 +45,13 @@ export default function HomePage() {
 
           <div className="mt-12 grid grid-cols-1 gap-8 border-t border-rule pt-10 md:grid-cols-2">
             {secondaryFeatured.map((article) => (
-              <ArticleCard key={article.id} article={article} variant="large" showExcerpt />
+              <ArticleCard key={article.slug} article={article} variant="large" showExcerpt />
             ))}
           </div>
 
           <div className="mt-12 grid grid-cols-1 gap-8 border-t border-rule pt-10 sm:grid-cols-2 lg:grid-cols-3">
             {tertiaryFeatured.concat(latest.slice(0, 4)).slice(0, 3).map((article) => (
-              <ArticleCard key={article.id} article={article} variant="medium" />
+              <ArticleCard key={article.slug} article={article} variant="medium" />
             ))}
           </div>
         </div>
@@ -60,7 +60,7 @@ export default function HomePage() {
           <h2 className="eyebrow mb-4 text-ink">Latest</h2>
           <ol className="divide-y divide-rule">
             {latest.map((article, i) => (
-              <li key={article.id} className="py-4 first:pt-0">
+              <li key={article.slug} className="py-4 first:pt-0">
                 <div className="flex gap-3">
                   <span
                     className="font-mono text-xs font-semibold text-accent"
@@ -115,7 +115,7 @@ export default function HomePage() {
             <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
               {items.map((article, i) => (
                 <ArticleCard
-                  key={article.id}
+                  key={article.slug}
                   article={article}
                   variant={i === 0 ? 'medium' : 'small'}
                   showExcerpt={i === 0}

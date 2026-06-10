@@ -15,7 +15,6 @@ export interface ArticleSection {
 }
 
 export interface Author {
-  id: string;
   slug: string;
   name: string;
   role: string;
@@ -44,25 +43,24 @@ export interface Tag {
 }
 
 export interface Newsletter {
-  id: string;
   slug: string;
   name: string;
   description: string;
   frequency: string;
-  authorId: string;
+  authorSlug: string;
+  authorName?: string;
   subscribers: string;
   preview: string;
   accent: string;
 }
 
 export interface Article {
-  id: string;
   slug: string;
   title: string;
   subtitle: string;
   category: string;
   tags: string[];
-  authorId: string;
+  authorSlug: string;
   publishedAt: string;
   readingTime: number;
   image: string;
@@ -72,5 +70,5 @@ export interface Article {
   hero?: boolean;
   excerpt: string;
   sections: ArticleSection[];
-  relatedArticleIds: string[];
+  relatedSlugs: string[];
 }

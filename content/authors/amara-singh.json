@@ -1,0 +1,19 @@
+{
+  "slug": "amara-singh",
+  "name": "Amara Singh",
+  "role": "Media & Platforms Editor",
+  "bio": "Amara writes about the global information ecosystem, from state media operations to platform governance. She was previously a research fellow studying influence operations.",
+  "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop",
+  "location": "Singapore",
+  "social": {
+    "twitter": "@amarasingh",
+    "linkedin": "amara-singh",
+    "email": "amara@geopolitics.example"
+  },
+  "expertise": [
+    "Media",
+    "Platforms",
+    "Influence Operations",
+    "South Asia"
+  ]
+}
