@@ -1,4 +1,4 @@
-# Geopolitics
+# GeoScope
 
 A modern news platform inspired by the editorial structure of premium news organizations like Semafor, built as an original product. Original reporting on the people, institutions, and forces shaping the global order.
 

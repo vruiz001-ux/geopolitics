@@ -18,7 +18,7 @@ export default function Image({ params }: { params: { slug: string } }) {
   const author = article ? getAuthorBySlug(article.authorSlug) : undefined;
   const category = article ? getCategoryBySlug(article.category) : undefined;
 
-  const title = article?.title ?? 'Geopolitics';
+  const title = article?.title ?? 'GeoScope';
   const fontSize = title.length > 80 ? 52 : title.length > 50 ? 60 : 72;
 
   return new ImageResponse(
@@ -83,8 +83,7 @@ export default function Image({ params }: { params: { slug: string } }) {
             }}
           >
             Geo
-            <span style={{ color: '#C2410C', margin: '0 4px' }}>·</span>
-            politics
+            <span style={{ color: '#C2410C' }}>Scope</span>
           </div>
         </div>
       </div>

@@ -54,7 +54,7 @@ export function Footer() {
             </ul>
           </div>
           <div>
-            <h2 className="eyebrow mb-4 text-muted">Geopolitics</h2>
+            <h2 className="eyebrow mb-4 text-muted">GeoScope</h2>
             <ul className="space-y-2 font-sans text-sm text-ink">
               <li><Link href="/about" className="link-hover">About</Link></li>
               <li><Link href="/newsletters" className="link-hover">Newsletters</Link></li>
@@ -79,7 +79,7 @@ export function Footer() {
         </div>
         <div className="mt-12 flex flex-col items-start justify-between gap-3 border-t border-rule pt-6 sm:flex-row sm:items-center">
           <p className="font-sans text-xs text-muted">
-            © {new Date().getFullYear()} Geopolitics. All rights reserved.
+            © {new Date().getFullYear()} GeoScope. All rights reserved.
           </p>
           <ul className="flex items-center gap-5 font-sans text-xs text-muted">
             <li><Link href="#" className="link-hover">Privacy</Link></li>

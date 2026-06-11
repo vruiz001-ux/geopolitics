@@ -9,14 +9,13 @@ export function Logo({ size = 'md' }: { size?: 'sm' | 'md' | 'lg' }) {
   return (
     <Link
       href="/"
-      aria-label="Geopolitics home"
-      className="group inline-flex items-baseline gap-1 font-serif font-bold leading-none tracking-tightest text-ink"
+      aria-label="GeoScope home"
+      className="group inline-flex items-baseline font-serif font-bold leading-none tracking-tightest"
     >
-      <span className={`${sizes[size]}`}>Geo</span>
+      <span className={`${sizes[size]} text-ink`}>Geo</span>
       <span className={`${sizes[size]} text-accent transition-colors group-hover:text-ink`}>
-        ·
+        Scope
       </span>
-      <span className={`${sizes[size]}`}>politics</span>
     </Link>
   );
 }

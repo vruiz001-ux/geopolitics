@@ -6,7 +6,7 @@ import { NewsletterCTA } from '@/components/NewsletterCTA';
 export const metadata: Metadata = {
   title: 'About',
   description:
-    'Geopolitics is an independent newsroom covering the people, institutions, and forces shaping the global order.',
+    'GeoScope is an independent newsroom covering the people, institutions, and forces shaping the global order.',
 };
 
 export default function AboutPage() {
@@ -19,7 +19,7 @@ export default function AboutPage() {
           We cover the world the way it actually moves.
         </h1>
         <p className="mt-6 font-serif text-xl leading-relaxed text-graphite">
-          Geopolitics is an independent newsroom built for readers who care about how decisions get
+          GeoScope is an independent newsroom built for readers who care about how decisions get
           made, by whom, and what comes next. Our reporting is original, structured, and honest
           about what we know and what we do not.
         </p>
