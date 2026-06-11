@@ -58,7 +58,7 @@ src/
 
 All content lives as JSON files in `content/` — articles, authors, categories, newsletters, and tags. The code in `src/` is the frame; the CMS only ever touches `content/`, so editors cannot break the design.
 
-**Edit in the browser:** open [`/admin`](https://geopolitics-vruiz001.netlify.app/admin) on the live site. Sign in with a GitHub personal access token (Settings → Developer settings → Fine-grained tokens → grant read/write on this repo's Contents). Every save commits to `main`, which triggers an automatic redeploy via GitHub Actions — your change is live in ~2 minutes.
+**Edit in the browser:** open [`/admin`](https://geopolitics-vruiz001.netlify.app/admin) on the live site and click **"Sign In Using Access Token"** (not "Sign In with GitHub" — that button needs an OAuth app that isn't configured). The dialog links to GitHub's token page with the right scopes pre-selected (`repo`); generate the token, paste it, done. It's stored in your browser. Every save commits to `main`, which triggers an automatic Netlify redeploy — your change is live in ~2 minutes.
 
 **Edit locally:** run `npx @sveltia/cms-server` in one terminal and `npm run dev` in another, then open `http://localhost:3000/admin/index.html` and pick "Work with local repository". Or just edit the JSON files in `content/` directly.
 
